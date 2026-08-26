@@ -1,0 +1,314 @@
+# **Osmo Terms of Service**
+
+**Effective Date: August 26, 2026**  
+**Last Updated: August 26, 2026**
+
+**These Terms of Service ("Terms") govern access to and use of Osmo, including the Osmo mobile application, websites, software, content, features, and related services (collectively, the "Services").**
+
+**The Services are provided by Stateframe Technologies, Inc., a Delaware corporation ("Stateframe," "we," "us," or "our"). "Osmo" is the product and service operated by Stateframe.**
+
+**By creating an account, accessing, or using the Services, you agree to these Terms.**
+
+## **1\. Eligibility**
+
+**You must be at least 18 years of age to create an Osmo account or use the Services.**
+
+**By creating an account or using the Services, you represent and warrant that:**
+
+* **You are at least 18 years old;**  
+* **You have the legal capacity to enter into these Terms; and**  
+* **Your use of the Services is not prohibited by applicable law.**
+
+**The Services are not intended for individuals under 18\.**
+
+## **2\. Osmo and Institutional Access**
+
+**Osmo may be purchased, sponsored, or made available by an athletic department, university, team, conference, or other organization (an "Institution").**
+
+**An Institution's purchase of Osmo does not:**
+
+* **Transfer ownership of an athlete's personal information or biometric information to the Institution;**  
+* **Constitute an athlete's consent to connect a WHOOP account or other third-party service;**  
+* **Constitute consent for coaches or Institutional personnel to access raw biometric information;**  
+* **Override an athlete's applicable privacy choices or legal rights; or**  
+* **Grant the Institution unrestricted access to information associated with an athlete's Osmo account.**
+
+**Athletes separately decide whether to connect supported third-party services and, where applicable, whether to authorize coach-facing sharing features.**
+
+**Stateframe may enter into a separate agreement with an Institution governing the Institution's purchase and administration of the Services. Any such agreement governs the contractual relationship between Stateframe and that Institution. These Terms govern an individual user's use of the Services unless expressly stated otherwise.**
+
+**If there is a conflict between these Terms and a separately executed agreement between Stateframe and an Institution, the separate agreement controls solely with respect to the rights and obligations of the parties to that agreement.**
+
+## **3\. Accounts**
+
+**You are responsible for maintaining the confidentiality and security of your login credentials and for activity occurring through your account.**
+
+**You agree to provide accurate information and to promptly update information where necessary.**
+
+**You may not share credentials, impersonate another person, access another user's account without authorization, or attempt to circumvent authentication or access controls.**
+
+**You must promptly notify Stateframe at jamari@osmoperformance.com if you believe your account has been compromised.**
+
+## **4\. Third-Party Services and WHOOP**
+
+**Osmo may allow you to connect third-party products and services, including WHOOP.**
+
+**Your use of a third-party service is governed by your relationship with that third party and its applicable terms and policies.**
+
+**Stateframe does not control and is not responsible for the availability, accuracy, operation, security, or continued availability of third-party services.**
+
+**You authorize Stateframe to access and process information made available through a third-party integration only to the extent permitted by the authorization you provide and subject to Stateframe's Privacy Policy and applicable law.**
+
+**You may disconnect supported third-party integrations through available account functionality.**
+
+## **5\. What Osmo Provides**
+
+**Osmo provides tools intended to support emotional performance, self-awareness, personal reflection, and performance-related routines.**
+
+**Features may include:**
+
+* **Self-reported emotional check-ins;**  
+* **Personalized briefings;**  
+* **Osmo readiness labels;**  
+* **Exercises and guided practices;**  
+* **Personal trends;**  
+* **Recommendations informed by information you provide and third-party data you authorize;**  
+* **Journaling and reflection features; and**  
+* **Other performance and wellness functionality.**
+
+**Features may change as the Services develop.**
+
+## **6\. Not Medical Advice or Healthcare**
+
+**Osmo is a performance and wellness product. It is not a medical device, healthcare provider, mental-health provider, emergency service, or substitute for professional medical or mental-health care.**
+
+**The Services do not provide medical diagnosis, medical treatment, psychotherapy, clinical mental-health treatment, sports medicine, or emergency care.**
+
+**Biometric information, self-reported information, readiness labels, recommendations, exercises, summaries, and other outputs generated by Osmo are provided for informational, performance, and wellness purposes only.**
+
+**You should not disregard, delay, or replace professional medical or mental-health advice based on information provided through Osmo.**
+
+**Osmo outputs should not be used as the sole basis for decisions concerning an athlete's medical care, injury status, eligibility, scholarship, roster status, discipline, employment, or other materially adverse decision.**
+
+**If you believe you are experiencing a medical or mental-health emergency, seek appropriate emergency or professional assistance.**
+
+## **7\. Athlete Data and Coach Access**
+
+**Athletes may be able to view supported raw biometric values associated with their own accounts.**
+
+**Coach-facing features are designed not to provide coaches or athletic department personnel with raw WHOOP biometric values.**
+
+**Every table storing raw WHOOP biometric values has row-level security enabled with no policy granting coach access, so a coach's own database credential is denied those rows at the database layer. Coach-facing API requests are served by a privileged backend service that queries only Osmo-derived summary tables and returns an explicit allow-list of non-raw fields.**
+
+**An Institution's purchase of the Services does not independently authorize such sharing.**
+
+**Privacy practices governing personal information are described in the Osmo Privacy Policy and applicable supplemental privacy notices.**
+
+## **8\. Acceptable Use**
+
+**You may use the Services only for lawful purposes and in accordance with these Terms.**
+
+**You may not:**
+
+* **Access, use, or attempt to access another person's account or information without authorization;**  
+* **Circumvent authentication, privacy, consent, security, or access controls;**  
+* **Scrape, harvest, copy, or systematically extract information from the Services except as expressly authorized;**  
+* **Reverse engineer, decompile, disassemble, or attempt to derive source code, models, algorithms, scoring rules, or nonpublic methodology except to the extent applicable law expressly prohibits such restriction;**  
+* **Probe, scan, or test the vulnerability of the Services without written authorization;**  
+* **Introduce malicious code, malware, or other harmful functionality;**  
+* **Interfere with or disrupt the Services or infrastructure supporting them;**  
+* **Use the Services to stalk, harass, discriminate against, or unlawfully monitor another person;**  
+* **Attempt to obtain another athlete's biometric, emotional, journal, or other private information;**  
+* **Misrepresent Osmo-generated information as medical advice, diagnosis, or clinical assessment;**  
+* **Use the Services or Osmo outputs as the sole basis for medical, disciplinary, scholarship, eligibility, roster, employment, or similarly consequential decisions concerning another person;**  
+* **Sell, sublicense, redistribute, commercially exploit, or create an unauthorized competing service from the Services or Stateframe's proprietary content; or**  
+* **Use the Services in violation of applicable law or third-party rights.**
+
+## **9\. Ownership and Intellectual Property**
+
+**As between you and Stateframe, Stateframe and its licensors own all right, title, and interest in and to the Services and Stateframe's proprietary materials, including, as applicable:**
+
+* **Software and source code;**  
+* **User-interface designs;**  
+* **Osmo methodologies and frameworks;**  
+* **Exercise structures and instructional content;**  
+* **Recommendation logic;**  
+* **Scoring and classification methodologies;**  
+* **Readiness-label systems;**  
+* **Documentation;**  
+* **Branding;**  
+* **Text, audio, graphics, and other content created by Stateframe; and**  
+* **Osmo-generated formats, presentation systems, and other proprietary elements.**
+
+**These Terms do not transfer ownership of your personal information, journal entries, reflections, or other original content you provide to Stateframe.**
+
+**Third-party data, including WHOOP data, remains subject to applicable third-party rights and terms.**
+
+**To the extent Osmo generates derived outputs using information made available by you or an authorized third-party service, Stateframe retains its rights in the proprietary methodology, software, structure, and presentation used to generate those outputs, subject to your rights in your information and any applicable third-party rights.**
+
+**Stateframe grants you a limited, personal, nonexclusive, nontransferable, nonsublicensable, revocable license to access and use the Services and outputs made available to you for your personal use in accordance with these Terms.**
+
+## **10\. User Content**
+
+**You retain any rights you have in original content you submit to Osmo, including journal entries, reflections, and written responses ("User Content").**
+
+**You grant Stateframe a limited, worldwide license to host, store, reproduce, process, and otherwise use User Content solely as reasonably necessary to operate, secure, support, and provide the Services and as otherwise described in the Privacy Policy or authorized by you.**
+
+**Stateframe does not obtain ownership of your User Content merely because you submit it through Osmo.**
+
+**You represent that you have the rights necessary to provide any User Content you submit.**
+
+## **11\. Feedback**
+
+**If you voluntarily provide suggestions, ideas, or feedback concerning the Services, you grant Stateframe a perpetual, irrevocable, worldwide, royalty-free right to use that feedback to develop, operate, improve, and commercialize Stateframe's products and services without obligation to compensate you.**
+
+**This section does not grant Stateframe rights to use your identifiable consumer health data beyond the rights otherwise permitted by applicable law, the Privacy Policy, and your applicable consent.**
+
+## **12\. Availability and Changes to the Services**
+
+**Stateframe may modify, update, suspend, discontinue, or change features of the Services from time to time.**
+
+**We do not guarantee that any particular feature, third-party integration, metric, exercise, recommendation, or functionality will remain available indefinitely.**
+
+**Certain functionality may depend on third-party products or APIs that Stateframe does not control.**
+
+## **13\. Suspension and Termination**
+
+**You may stop using the Services at any time.**
+
+**Stateframe may suspend or terminate access where reasonably necessary, including if:**
+
+* **You materially violate these Terms;**  
+* **Your use creates a security, legal, or operational risk;**  
+* **We are required to do so by law;**  
+* **An applicable Institutional relationship ends;**  
+* **A required third-party service becomes unavailable; or**  
+* **Continuing to provide the Services is no longer commercially or technically feasible.**
+
+**Where reasonably practicable, Stateframe will provide notice before terminating an account for reasons unrelated to misconduct, security, or legal requirements.**
+
+**Termination of access does not eliminate rights you may have under applicable privacy law concerning access, deletion, or other treatment of personal information.**
+
+**If an Institution stops purchasing Osmo, Stateframe may discontinue Institution-sponsored access. Where technically and commercially available, Stateframe may permit an athlete to continue using certain individual features independently.**
+
+## **14\. Disclaimer of Warranties**
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE."**
+
+**STATEFRAME DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.**
+
+**STATEFRAME DOES NOT WARRANT THAT:**
+
+* **THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, OR COMPLETELY SECURE;**  
+* **THIRD-PARTY INFORMATION WILL ALWAYS BE AVAILABLE, COMPLETE, CURRENT, OR ACCURATE;**  
+* **AN OSMO RECOMMENDATION OR EXERCISE WILL PRODUCE A PARTICULAR PHYSICAL, EMOTIONAL, ATHLETIC, OR PERFORMANCE OUTCOME; OR**  
+* **INFORMATION GENERATED BY THE SERVICES WILL BE APPROPRIATE AS THE SOLE BASIS FOR A PERFORMANCE, HEALTH, OR PERSONNEL DECISION.**
+
+**SOME JURISDICTIONS DO NOT ALLOW CERTAIN WARRANTY DISCLAIMERS, SO SOME OF THE FOREGOING MAY NOT APPLY TO YOU.**
+
+## **15\. Limitation of Liability**
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, STATEFRAME AND ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, AFFILIATES, AND LICENSORS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, BUSINESS OPPORTUNITY, GOODWILL, OR DATA, ARISING OUT OF OR RELATING TO THE SERVICES OR THESE TERMS.**
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, STATEFRAME'S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO AN INDIVIDUAL USER'S USE OF THE SERVICES OR THESE TERMS WILL NOT EXCEED THE GREATER OF:**
+
+1. **THE AMOUNT THE INDIVIDUAL USER PERSONALLY PAID TO STATEFRAME FOR THE SERVICES DURING THE 12 MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM; OR**  
+2. **$100.**
+
+**THIS LIMITATION DOES NOT APPLY TO LIABILITY THAT CANNOT LAWFULLY BE LIMITED OR EXCLUDED.**
+
+**THIS SECTION DOES NOT MODIFY OR LIMIT LIABILITY UNDER A SEPARATELY EXECUTED INSTITUTIONAL AGREEMENT EXCEPT TO THE EXTENT THAT AGREEMENT EXPRESSLY PROVIDES OTHERWISE.**
+
+## **16\. Dispute Resolution and Arbitration**
+
+### **A. Informal Resolution**
+
+**Before initiating arbitration or litigation, you and Stateframe agree to attempt in good faith to resolve the dispute informally.**
+
+**A party initiating a dispute must send written notice describing the dispute and requested relief to:**
+
+**Stateframe Technologies, Inc.**  
+**jamari@osmoperformance.com**
+
+**The parties will have 30 days after receipt of the notice to attempt informal resolution.**
+
+### **B. Binding Individual Arbitration**
+
+**Except for disputes eligible for small claims court and requests for temporary or injunctive relief concerning unauthorized access, misuse, or infringement of intellectual property, any dispute arising out of or relating to these Terms or the Services that is not resolved informally will be resolved through binding arbitration on an individual basis.**
+
+**The arbitration will be administered by the American Arbitration Association under its applicable Consumer Arbitration Rules.**
+
+**The Federal Arbitration Act governs the interpretation and enforcement of this arbitration provision.**
+
+**Unless the parties agree otherwise, arbitration may be conducted remotely or in the county where you reside.**
+
+### **C. No Class Proceedings**
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOU AND STATEFRAME AGREE THAT EACH PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF, CLAIMANT, OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING.**
+
+### **D. Jury Trial Waiver**
+
+**TO THE EXTENT A DISPUTE PROCEEDS IN COURT RATHER THAN ARBITRATION, YOU AND STATEFRAME WAIVE THE RIGHT TO A JURY TRIAL TO THE MAXIMUM EXTENT PERMITTED BY LAW.**
+
+### **E. Arbitration Opt-Out**
+
+**You may opt out of the arbitration provisions in this Section by sending written notice to jamari@osmoperformance.com within 30 days after first accepting these Terms.**
+
+**Your notice must include your name, the email associated with your Osmo account, and a clear statement that you wish to opt out of arbitration.**
+
+**Opting out of arbitration will not affect your ability to use the Services.**
+
+## **17\. Governing Law**
+
+**Except to the extent superseded by the Federal Arbitration Act or nonwaivable provisions of applicable law, these Terms are governed by the laws of the State of Delaware, without regard to conflict-of-laws principles.**
+
+**For disputes that are not subject to arbitration, you and Stateframe consent to the jurisdiction of the state and federal courts located in Delaware, except where applicable law provides otherwise.**
+
+## **18\. Privacy**
+
+**Stateframe's collection, use, and disclosure of personal information is governed by the Osmo Privacy Policy and applicable supplemental privacy notices.**
+
+**Nothing in these Terms constitutes consent to processing for which applicable law requires a separate affirmative consent.**
+
+## **19\. Electronic Communications**
+
+**You agree that Stateframe may provide agreements, notices, disclosures, and other communications electronically, including through the Services or by email, where permitted by applicable law.**
+
+## **20\. Changes to These Terms**
+
+**Stateframe may modify these Terms from time to time.**
+
+**If a modification materially affects your rights or obligations, we will provide notice as required by applicable law.**
+
+**Your continued use of the Services after modified Terms become effective constitutes acceptance to the extent permitted by applicable law.**
+
+**Where applicable law requires affirmative agreement to a modification, Stateframe will obtain that agreement before the modified provision becomes binding.**
+
+## **21\. Assignment**
+
+**You may not assign or transfer these Terms without Stateframe's prior written consent.**
+
+**Stateframe may assign these Terms in connection with a merger, acquisition, financing, corporate reorganization, sale of assets, or other corporate transaction, or by operation of law, subject to applicable law.**
+
+## **22\. Severability**
+
+**If any provision of these Terms is determined to be unlawful, invalid, or unenforceable, that provision will be enforced to the maximum extent permitted by law or severed if necessary, and the remaining provisions will remain in effect.**
+
+## **23\. Waiver**
+
+**A failure by Stateframe to enforce a provision of these Terms is not a waiver of its right to do so later.**
+
+## **24\. Entire Agreement**
+
+**These Terms, together with policies and terms expressly incorporated by reference, constitute the agreement between you and Stateframe concerning your individual use of the Services, except to the extent a separate written agreement expressly governs the matter.**
+
+## **25\. Contact**
+
+**Stateframe Technologies, Inc.**  
+**Operator of Osmo**
+
+**Support: jamari@osmoperformance.com**  
+**Legal: jamari@osmoperformance.com**  
+**Privacy: jamari@osmoperformance.com**  
+**Mailing Address: 131 Continental Dr Suite 305 Newark, DE 19713 United States**
+
