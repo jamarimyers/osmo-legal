@@ -40,9 +40,11 @@
 
     <section>
       <h2>Product Walkthrough</h2>
-      <!-- Replace LOOM_URL_PLACEHOLDER below with the Loom embed URL -->
+      <!-- Screen recording, self-hosted. Drop the compressed file in at integration/video.mp4 (H.264 MP4) and this plays with no other change. -->
       <div class="video-embed">
-        <iframe src="LOOM_URL_PLACEHOLDER" title="Osmo WHOOP integration walkthrough" allowfullscreen loading="lazy"></iframe>
+        <video controls playsinline preload="metadata">
+          <source src="video.mp4" type="video/mp4">
+        </video>
       </div>
     </section>
 
@@ -53,17 +55,17 @@
 
     <section>
       <h2>WHOOP's own authorization screen lists the exact data categories Osmo is requesting, including recovery, cycles, sleep, and profile information, before the athlete grants access.</h2>
-      <p class="shot"><img loading="lazy" src="img/02-whoop-authorization.png" alt="WHOOP authorization consent screen listing requested data categories"></p>
+      <p class="shot"><img loading="lazy" src="img/02-whoop-authorization.jpg" alt="WHOOP authorization consent screen listing requested data categories"></p>
     </section>
 
     <section>
       <h2>After the athlete grants access, WHOOP redirects back through Osmo's callback page confirming the account is linked.</h2>
-      <p class="shot"><img loading="lazy" src="img/03-authorization-confirmed.png" alt="WHOOP Connected confirmation page"></p>
+      <p class="shot"><img loading="lazy" src="img/03-authorization-confirmed.jpg" alt="WHOOP Connected confirmation page"></p>
     </section>
 
     <section>
       <h2>Once linked, the Profile screen shows WHOOP as connected with no further action required from the athlete.</h2>
-      <p class="shot"><img loading="lazy" src="img/04-connected-state.png" alt="Osmo Profile screen showing WHOOP connected state"></p>
+      <p class="shot"><img loading="lazy" src="img/04-connected-state.jpg" alt="Osmo Profile screen showing WHOOP connected state"></p>
     </section>
 
     <section>
@@ -78,17 +80,17 @@
 
     <section>
       <h2>Disconnecting WHOOP from the Profile screen stops new data collection immediately and schedules the athlete's stored biometric records for deletion after 30 days, with reconnection inside that window restoring history.</h2>
-      <p class="shot"><img loading="lazy" src="img/07-disconnect-flow.png" alt="Disconnect WHOOP confirmation dialog"></p>
+      <p class="shot"><img loading="lazy" src="img/07-disconnect-flow.jpg" alt="Disconnect WHOOP confirmation dialog"></p>
     </section>
 
     <section>
       <h2>Deleting an Osmo account is a separate, permanent action confirmed through this dialog, which immediately and irreversibly removes WHOOP data, check-ins, journal entries, module progress, and coach access.</h2>
-      <p class="shot"><img loading="lazy" src="img/08-account-deletion.png" alt="Delete account confirmation dialog"></p>
+      <p class="shot"><img loading="lazy" src="img/08-account-deletion.jpg" alt="Delete account confirmation dialog"></p>
     </section>
 
     <section>
       <h2>The Profile screen also links directly to Osmo's Privacy Policy and Terms of Service, both hosted on this same legal site.</h2>
-      <p class="shot"><img loading="lazy" src="img/09-legal-access.png" alt="Osmo Profile screen showing links to Privacy Policy and Terms of Service"></p>
+      <p class="shot"><img loading="lazy" src="img/09-legal-access.jpg" alt="Osmo Profile screen showing links to Privacy Policy and Terms of Service"></p>
     </section>
 
   </article>
