@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DOCUMENT TITLE | Osmo</title>
+<meta name="description" content="ONE SENTENCE DESCRIPTION.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://legal.osmoperformance.com/PATH/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/legal.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="wordmark" href="/">Osmo</a>
+    <nav class="masthead__nav">
+      <a href="/privacy/" aria-current="page">Privacy</a>
+      <a href="/terms/">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="doc-head">
+    <p class="eyebrow">Stateframe Technologies, Inc.</p>
+    <h1>DOCUMENT TITLE</h1>
+    <p class="dateline">
+      <span>Effective DATE</span>
+      <span>Last updated DATE</span>
+    </p>
+  </div>
+
+  <div class="layout">
+
+    <!-- Table of contents. One entry per top-level section. Anchors must match
+         the section ids below exactly. -->
+    <nav class="toc" aria-label="Contents">
+      <p class="toc__label">Contents</p>
+      <ol>
+        <li><a href="#s1">1. Section name</a></li>
+        <li><a href="#s2">2. Section name</a></li>
+      </ol>
+    </nav>
+
+    <article class="prose">
+
+      <!-- STRUCTURE RULE: one <section> per numbered top-level section.
+           id="s{N}" where N is the section number. The <h2> carries the
+           number and title exactly as written in the source document. -->
+
+      <section id="s1">
+        <h2>1. Section name</h2>
+        <p>Body paragraph. Paragraph breaks in the source document become
+        separate p elements. Do not merge them.</p>
+
+        <h3>A. Lettered subsection</h3>
+        <p>Lettered subsections in the source become h3.</p>
+
+        <ul>
+          <li>Bulleted item from the source document</li>
+          <li>Another item</li>
+        </ul>
+      </section>
+
+      <section id="s2">
+        <h2>2. Section name</h2>
+
+        <!-- Plain-language subheadings that are not numbered or lettered
+             (for example "Account deletion" and "Eligibility records" in
+             Privacy Policy section 11) become h4. -->
+        <h4>Plain-language subheading</h4>
+        <p>Body.</p>
+
+        <!-- All-caps legal blocks (warranty disclaimer, limitation of
+             liability, class waiver, jury waiver) go inside .legalese.
+             Keep the source casing. Do not sentence-case them. -->
+        <div class="legalese">
+          <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW ...</p>
+        </div>
+
+        <!-- Contact blocks use .contact-block. -->
+        <p class="contact-block">
+          <strong>Stateframe Technologies, Inc.</strong>
+          Operator of Osmo<br>
+          Privacy and Support: <a href="mailto:jamari@osmoperformance.com">jamari@osmoperformance.com</a><br>
+          131 Continental Dr Suite 305, Newark, DE 19713, United States
+        </p>
+      </section>
+
+    </article>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="foot__inner">
+    <p>Stateframe Technologies, Inc. Operator of Osmo.</p>
+    <div class="foot__links">
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+      <a href="mailto:jamari@osmoperformance.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
