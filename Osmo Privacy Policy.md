@@ -1,7 +1,7 @@
 # **Osmo Privacy Policy**
 
-**Effective Date:** August 26, 2026  
-**Last Updated:** August 26, 2026
+**Effective Date:** October 23, 2026  
+**Last Updated:** October 23, 2026
 
 ## **1\. Introduction**
 
@@ -19,6 +19,8 @@ The Services are intended only for individuals who are at least 18 years of age.
 
 By creating an Osmo account, you represent that you are at least 18 years old.
 
+Osmo asks you to confirm that you are 18 or older when you first sign in. You do not need to enter your birth date to confirm. If you choose to add a date of birth to your profile, the app does not accept a date that would make you younger than 18.
+
 The Services are not directed to children under 18, and Stateframe does not knowingly collect personal information from individuals under 18\. If we learn that an individual under 18 has provided personal information through the Services, we may take reasonable steps to delete the information and terminate the associated account, subject to applicable law.
 
 ## **3\. Information We Collect**
@@ -32,10 +34,13 @@ We may collect account and profile information, including, without limitation:
 * Name  
 * Email address  
 * Account identifiers  
-* Authentication information  
+* Authentication information, including the sign-in method you use (an email address with a one-time sign-in code, an optional password, Apple, or Google) and the identifiers those services provide to Osmo. If you create a password, it is stored by our authentication provider in hashed form; Osmo does not see or store it in readable form  
+* For Apple sign-in, an encrypted Apple authorization token that Osmo keeps only so it can revoke its access if you delete your account  
 * Sport  
 * Team or institutional affiliation  
 * Time zone  
+* Date of birth, only if you choose to enter it  
+* Confirmation that you are 18 or older  
 * Display name  
 * Onboarding and account status  
 * Other profile information you choose to provide
@@ -53,11 +58,16 @@ If you choose to connect WHOOP and authorize Stateframe to access your WHOOP inf
 * Sleep-stage information  
 * Physiological cycle information  
 * Day strain  
-* Average heart rate associated with a physiological cycle  
+* Average and maximum heart rate associated with a physiological cycle  
+* Blood oxygen (SpO2), skin temperature and respiratory rate  
+* Day energy expenditure (kilojoules)  
+* Osmo does not currently request WHOOP workout information. If that changes, we will update this policy before Osmo collects it.  
 * Cycle timing and related metadata  
 * WHOOP profile information, including name and email address  
 * Identifiers and technical information required to associate your WHOOP account with your Osmo account  
 * Authorization and connection information required to maintain the integration
+
+Osmo does not request WHOOP body measurements, such as height and weight.
 
 Stateframe does not independently measure WHOOP biometric information. That information originates from WHOOP and is made available to Stateframe pursuant to the authorization you provide.
 
@@ -67,12 +77,13 @@ Osmo evaluates HRV in relation to the individual athlete's own historical inform
 
 We may collect information that you submit or generate through your use of Osmo, including, without limitation:
 
-* PANAS check-in responses  
+* Check-in responses (a short check-in informed by the PANAS list of positive and negative feelings; it is a self-reflection tool, not a clinical or diagnostic assessment)  
 * Emotional-state information  
 * Optional notes  
 * Emotional-context selections  
 * Journal entries  
-* Written or voice-based reflections  
+* Written reflections  
+* Messages you send to Ozzy, the optional AI companion (see Section 6)  
 * Exercise responses  
 * Module and exercise completion information  
 * Pre-exercise and post-exercise state information  
@@ -80,6 +91,8 @@ We may collect information that you submit or generate through your use of Osmo,
 * Survey responses  
 * Perceived-usefulness responses  
 * Other information you voluntarily submit through the Services
+
+Dictation. If you use dictation with Ozzy, your speech is converted to text on your device. Osmo does not record, upload or receive audio. Osmo receives only the text you review and send.
 
 Certain information is intended to remain private to the athlete, as described in Section 7 below.
 
@@ -97,6 +110,8 @@ When you use Osmo, we may automatically collect certain technical, operational, 
 * Analytics events
 
 We seek to limit the inclusion of sensitive biometric and personal information in diagnostic, monitoring, and analytics systems.
+
+Analytics events are kept until you delete your account. Events about Ozzy conversations record only fixed categories, such as how a message was entered and a response-time range. They never include the text of your messages or Ozzy's replies.
 
 ### **E. Information From Institutions and Other Sources**
 
@@ -126,6 +141,7 @@ Stateframe may use personal information, as applicable, for purposes including:
 * Connecting and synchronizing third-party services that you authorize  
 * Generating daily briefings, readiness labels, recommendations, and other Osmo-derived information  
 * Personalizing exercises and emotional-performance experiences  
+* Writing replies in the optional Ozzy conversation, using the information described in Section 6  
 * Evaluating information against your own historical patterns and baselines  
 * Displaying trends, activity, progress, and other information to you  
 * Recording check-ins, exercises, reflections, streaks, surveys, and other Osmo activity  
@@ -156,13 +172,14 @@ These providers may include, without limitation, providers of:
 
 * Cloud infrastructure and application hosting  
 * Database infrastructure  
-* Authentication and account-management services  
+* Authentication and account-management services, including email delivery of sign-in codes and Apple and Google sign-in  
 * Data storage  
 * Security services  
 * Error monitoring and application-performance monitoring  
 * Push-notification infrastructure  
 * Communications infrastructure  
 * Analytics and product-performance tools  
+* AI language-model services, for the optional Ozzy companion  
 * Customer support tools  
 * Software development and technical infrastructure  
 * Professional, accounting, insurance, compliance, and legal services  
@@ -172,11 +189,26 @@ Such providers may access information only to the extent reasonably necessary to
 
 The categories of providers Stateframe uses may change as the Services evolve.
 
+**AI service provider for Ozzy.** Ozzy, Osmo's AI companion, is optional. In this release it is offered only to a limited pilot group. It works only after you accept a separate in-app acknowledgement for Ozzy conversations (version ozzy-conversation-v2), which you can withdraw in the app. Anthropic, the AI model provider, writes Ozzy's replies. When you send Ozzy a message, Osmo sends Anthropic:
+
+* The text of your message and the recent turns of the current conversation  
+* Information Osmo derives for the conversation: the pattern of today's check-in, the titles of practices you did recently, your current streak, and the practices Osmo ranks as suggestions, each with a short reason
+
+In this release, Osmo does not automatically add WHOOP-derived information to the requests it sends Anthropic. Osmo does not add a readiness label, HRV, heart rate, recovery or sleep value, or an indication of whether you have connected WHOOP. Information you include in your messages or current conversation is sent as you wrote it, even if you include WHOOP information. Osmo also does not send your name, email address or account identifier, your journal entries or reflection text, your individual check-in answers, or any audio. If Osmo ever sends WHOOP-derived information to an AI provider, we will update this Privacy Policy before that begins.
+
+Anything you type or dictate to Ozzy is sent as you wrote it, so share only what you are comfortable with. Anthropic handles the text it receives under its own terms and privacy policy, which Stateframe does not control.
+
+Osmo does not save your Ozzy conversation. It is processed to produce a reply and is kept only in the app's memory while the app is open. It is cleared when the app restarts or a different account signs in. If you choose to keep your words, Osmo saves only your own words, after you review and edit them, as a private Journal entry. Osmo's own records of Ozzy use are limited to the analytics events described in Section 3.
+
+Optional Ozzy memory and journal-memory settings, which would let Ozzy remember across conversations, are not available in this release. If a memory feature is added, we will describe it here first, and it will require your separate opt-in.
+
+**Push notifications.** If you allow notifications, Osmo sends the notification text and your device's push token to Expo's push service, which delivers the notification through Apple's or Google's notification service. Morning notifications use generic wording and do not include WHOOP values.
+
 ### **B. Coaches and Athletic Department Personnel**
 
 Where an athlete has enabled or otherwise authorized applicable sharing functionality, Stateframe may make limited Osmo-derived information available to authorized coaches or athletic department personnel as described in Section 7\.
 
-Raw WHOOP biometric values are not provided through the Osmo coach-facing experience.
+Raw WHOOP biometric values are not provided through the Osmo coach-facing experience. Labels derived from your WHOOP data are shared with a coach only as described in Section 7.
 
 ### **C. Legal, Compliance, and Safety Purposes**
 
@@ -212,20 +244,32 @@ We will not attempt to re-identify information that has been treated as de-ident
 
 ### **Athlete Access**
 
-Athletes may access information made available to them through Osmo, including supported raw WHOOP values such as HRV, resting heart rate, recovery percentage, and sleep information.
+Athletes may access information made available to them through Osmo, including supported raw WHOOP values such as HRV, resting heart rate, average and maximum heart rate, recovery percentage, and sleep information.
+
+You can download your WHOOP recovery, sleep and workout records that Osmo holds from the Osmo app: Profile, then Settings, then WHOOP, then Download my WHOOP data. The download is a JSON file. It includes records Osmo still holds during the 30 days after you disconnect WHOOP. It does not include your WHOOP authorization tokens.
 
 ### **Coach and Athletic Department Access**
 
 Osmo is designed so that coaches and athletic department personnel do not receive raw WHOOP biometric values through coach-facing Osmo features.
 
-Subject to the athlete's applicable sharing permissions and the functionality enabled for a particular institution, coach-visible information may include Osmo-derived or Osmo-native information such as:
+A coach sees information about you only after you turn on sharing with that coach. Sharing is off by default, joining a team does not share anything by itself, and you can turn sharing off at any time, after which you leave that coach's list. Once you share with a coach, that coach can see:
 
-* Readiness labels, including “Ready to Compete,” “Building Back,” and “Recovery Priority”  
-* Module or exercise engagement information  
-* Participation information  
-* Streak information  
-* Aggregate or derived emotional-performance information  
-* Other expressly identified Osmo-generated progress information
+* Your name and email address  
+* The day you were last active (never the time of day)  
+* Whether you checked in today (yes or no)  
+* Your check-in streak, including your streak for each of the last 14 days  
+* Whether your latest summary is current or out of date  
+* An alert when a streak of 5 or more days ends
+
+If your choice to share is recorded in Osmo's consent log (the in-app sharing screen tells you these labels come from your WHOOP data), a coach can also see labels that Osmo derives from your WHOOP data. They are labels only, with no raw values:
+
+* Your readiness label (Push today, Train smart today or Recover today), for today and for the last 14 days  
+* A direction label for your HRV trend and a quality label for your sleep  
+* An alert when you have been at Recover today for three days in a row
+
+A coach sees only the first list for an athlete who has not connected WHOOP or has disconnected it (labels stop reaching coaches at disconnect, even while the 30-day deletion is pending), and for an athlete whose sharing was set up before the consent log existed and has not been re-confirmed. If Osmo cannot read the consent log or the WHOOP connection, labels derived from WHOOP data are withheld.
+
+Coaches also see two kinds of team-level information. The first is counts of how many athletes on their team have joined, confirmed and are sharing. Athletes who are not sharing are never named. The second is aggregate practice-response results: the average change in how athletes reported feeling before and after a practice, grouped by type of practice and combined across the athletes sharing with that coach, with no athlete names and no individual scores.
 
 Coach-facing access does not include:
 
@@ -236,7 +280,10 @@ Coach-facing access does not include:
 * WHOOP authorization credentials or tokens  
 * Private journal entries  
 * Private reflection text  
-* Raw individual PANAS item responses
+* Check-in answers, individual check-in item responses, scores or exact check-in times  
+* Which practices you did or when you did them  
+* Your messages to Ozzy  
+* Your date of birth, push token or sign-in identifiers
 
 Restrictions on coach access to raw biometric information are implemented through technical access controls, including database-level access restrictions, and are not solely dependent on the application's user interface.
 
@@ -246,11 +293,18 @@ Stateframe does not access WHOOP information through the WHOOP integration until
 
 The permissions requested by Osmo determine the categories of WHOOP information that Stateframe is technically authorized to access.
 
-You may disconnect your WHOOP account from Osmo. Following disconnection, Stateframe will cease requesting new information through that connection and will take steps to revoke or discontinue the applicable authorization credentials.
+You may disconnect your WHOOP account from Osmo at any time. When you do:
+
+* Osmo asks WHOOP to revoke its access right away and stops syncing.  
+* Your raw WHOOP values are hidden in the app right away.  
+* Osmo deletes the WHOOP recovery, sleep and workout records it holds 30 days after you disconnect. This includes WHOOP values copied into your check-in and practice records and into the text of daily briefings.  
+* If you reconnect WHOOP within those 30 days, the deletion is called off and your history and your own baseline come back.
+
+Readiness labels that Osmo derived from your WHOOP data and stored in your practice records are not raw WHOOP values. Osmo keeps them until you delete your account.
 
 Disconnecting WHOOP does not necessarily terminate your Osmo account and may not prevent you from accessing Osmo functionality that does not require WHOOP information.
 
-The treatment of WHOOP information previously received by Stateframe following disconnection is subject to applicable law, the permissions you have provided, Stateframe's applicable retention practices, and the terms governing Stateframe's use of the WHOOP APIs.
+Retention of WHOOP information is also subject to applicable law and the terms governing Stateframe's use of the WHOOP APIs.
 
 ## **9\. Automated Personalization and Derived Information**
 
@@ -263,6 +317,10 @@ Osmo-derived information is not intended to constitute a medical diagnosis, medi
 Stateframe may use information within Osmo to operate, evaluate, test, secure, and improve personalized product functionality, subject to this Privacy Policy and applicable law.
 
 Stateframe does not sell WHOOP data or authorize third parties to commercially exploit WHOOP data as a standalone data product.
+
+Stateframe does not use WHOOP data to create, develop, test, train, fine-tune or improve any large language model or other machine-learning model.
+
+Ozzy's replies are written by an AI language model and can be wrong. Ozzy is not a therapist, doctor, counselor or coach, and its replies are not medical advice.
 
 ## **10\. Data Retention**
 
@@ -279,6 +337,10 @@ Stateframe retains personal information for periods reasonably necessary to prov
 
 Retention periods may differ by category of information.
 
+WHOOP information. Osmo keeps the WHOOP information it receives so it can compare you with your own baseline over time. It is kept while your WHOOP account is connected. If you disconnect WHOOP, your raw values are hidden right away, and the records are deleted 30 days later, including WHOOP values copied into check-in and practice records and into briefing text, unless you reconnect within those 30 days. Readiness labels derived from your WHOOP data and stored in practice records are kept until you delete your account. If you delete your Osmo account, the WHOOP records are deleted immediately. See Sections 8 and 11.
+
+Other Osmo records. Your check-ins, journal entries, practice records, summaries and analytics events are kept until you delete your account. Ozzy conversations are not saved (see Section 6), and dictation audio is not recorded. An eligibility record created when a person under 18 is turned away is kept for 12 months (see Section 11).
+
 Where information is no longer reasonably necessary for an applicable purpose, Stateframe may delete, anonymize, aggregate, or otherwise de-identify it, subject to applicable law and third-party platform requirements.
 
 ## 11\. Account Deletion and Eligibility Records
@@ -287,24 +349,28 @@ Where information is no longer reasonably necessary for an applicable purpose, S
 
 You may delete your Osmo account at any time from the Profile screen in the Osmo app, under the heading Account. You will be asked to confirm twice before anything is deleted.
 
-Deletion runs immediately when you confirm. There is no waiting period, no recovery window, and no setting that marks your account as deleted while quietly keeping your information. Osmo cannot restore an account once it is deleted.
+Deletion starts when you confirm. Osmo does not hold your account in a recovery window or mark it as deleted while keeping your information, and Osmo cannot restore an account once it is deleted. Some steps depend on outside providers and can finish later or need action from you, as described below.
 
 When you confirm, Osmo does the following in order:
 
+* Withdraws every Ozzy permission you have given and, if you had turned on an optional Ozzy memory, asks the memory provider to erase it. That erasure can stay pending until the provider confirms it.  
 * Sends a request to your connected WHOOP account to revoke Osmo's access, so Osmo can no longer receive anything new from it.  
-* Deletes the recovery and sleep records it stored from that service, and clears the heart rate variability values derived from them out of your daily briefings.  
-* Deletes your account record. Every table holding your information points at that record with a cascade rule, so this one step also removes your consent records, PANAS check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional context sessions, product usage events, your coach permission links, and the Osmo summaries your coaches see.  
+* Deletes the recovery, sleep and workout records it stored from that service, and clears WHOOP-derived values out of your daily briefings, check-in records and practice records.  
+* Deletes your account record. Every table holding your information points at that record with a cascade rule, so this one step also removes your consent records, check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional context sessions, analytics events, your coach permission links, and the Osmo summaries your coaches see.  
+* If you signed in with Apple, asks Apple to revoke Osmo's sign-in authorization and deletes the Apple token Osmo stored. If Apple cannot be reached, the app tells you, and you can remove Osmo yourself in your Apple Account settings.  
 * Deletes your login record.
 
 If the revoke request to WHOOP does not succeed, deletion still proceeds and the app tells you plainly that the revocation did not go through.
 
-Deleting your Osmo account does not independently delete information maintained by WHOOP or another third-party service. Requests concerning information maintained directly by a third-party service must be directed to that service.
+Deleting your Osmo account does not independently delete information maintained by WHOOP, Anthropic, Apple, Google or another third-party service. Requests concerning information maintained directly by a third-party service must be directed to that service.
 
-Some records about the deletion itself sit outside the Osmo database. Osmo's server logs record that an account was deleted, using an internal account identifier rather than your name or email address. If a step of the deletion fails, an error report carrying that internal identifier is sent to Osmo's error monitoring provider. Deleting your account does not remove these operational records, and how long they are kept is governed by the retention settings of the infrastructure and monitoring providers Osmo uses.
+Some records about the deletion itself sit outside the Osmo database. Osmo's server logs record that an account was deleted, using an internal account identifier rather than your name or email address. If a step of the deletion fails, an error report carrying that internal identifier is sent to Osmo's error monitoring provider. Deleting your account does not remove these operational records, and how long they are kept is governed by the retention settings of the infrastructure and monitoring providers Osmo uses. Those providers may also keep backups that contain your information until the backups expire under their own schedules.
+
+If you ever used an optional Ozzy memory feature with an outside provider, Osmo also keeps a purge receipt: a record that an erasure was requested and its status. The receipt has no name, email address or message text, only pseudonymous identifiers.
 
 Where deletion is required, Stateframe will delete or de-identify applicable information, subject to information that Stateframe is permitted or required to retain for legal, security, fraud prevention, contractual, dispute resolution, or other legitimate purposes permitted by applicable law.
 
-Disconnecting your WHOOP account is a separate action with a different result. Disconnecting stops new data immediately and hides the biometric records Osmo already holds, and those records are deleted 30 days later. If you reconnect within 30 days, your history and your own baseline come back. Account deletion does not use that 30 day window at all. Everything happens at once.
+Disconnecting your WHOOP account is a separate action with a different result. Disconnecting stops new data immediately and hides the biometric records Osmo already holds, and those records are deleted 30 days later. If you reconnect within 30 days, your history and your own baseline come back. Account deletion does not use that 30 day window. The WHOOP records are deleted when you confirm.
 
 ### Eligibility records
 
@@ -326,7 +392,9 @@ Because an eligibility record carries no link to your account, deleting your acc
 
 Stateframe maintains administrative, technical, and organizational safeguards designed to protect information against unauthorized access, acquisition, disclosure, alteration, loss, misuse, or destruction.
 
-WHOOP authorization tokens maintained by Stateframe are encrypted at rest using AES-256-GCM.
+WHOOP and Apple authorization tokens maintained by Stateframe are encrypted at rest using AES-256-GCM.
+
+Osmo's database provider, Supabase, states that it encrypts all customer data at rest with AES-256 and in transit with TLS.
 
 Stateframe uses encrypted network connections to protect information in transit.
 
@@ -356,7 +424,7 @@ Certain rights may be subject to exceptions or limitations under applicable law.
 
 Stateframe may take reasonable steps to verify your identity before processing a privacy request.
 
-To exercise an applicable privacy right, contact us using the information provided in Section 18\.
+To exercise an applicable privacy right, contact us using the information provided in Section 18\. Some choices are available directly in the Osmo app: downloading your WHOOP data, disconnecting WHOOP, withdrawing your Ozzy permissions, removing coach sharing, and deleting your account. For anything else, including support, email jamari@osmoperformance.com.
 
 ## **14\. Institutional Use**
 
@@ -376,6 +444,8 @@ Osmo is not intended to provide medical care, medical diagnosis, clinical mental
 
 Biometric information, self-reported information, readiness labels, recommendations, and other Osmo outputs should be understood as performance and wellness information rather than medical diagnoses.
 
+Ozzy is an AI companion. It is not a therapist, doctor, counselor, coach or crisis service. If you are in crisis or need urgent help, contact emergency services or a crisis line.
+
 ## **16\. Third-Party Services**
 
 Osmo may contain integrations with or links to third-party products and services.
@@ -383,6 +453,8 @@ Osmo may contain integrations with or links to third-party products and services
 Third-party services operate under their own terms and privacy practices. Stateframe is not responsible for the privacy, security, or other practices of a third party with respect to information maintained independently by that third party.
 
 Your use of WHOOP remains subject to the terms, policies, and privacy practices applicable to your relationship with WHOOP.
+
+Ozzy's replies are written by Anthropic's AI model, which operates under Anthropic's own terms and privacy policy.
 
 ## **17\. Changes to This Privacy Policy**
 
