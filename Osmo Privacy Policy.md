@@ -1,7 +1,7 @@
 # **Osmo Privacy Policy**
 
 **Effective Date:** October 30, 2026  
-**Last Updated:** October 30, 2026
+**Last Updated:** October 31, 2026
 
 ## **1\. Introduction**
 
@@ -336,7 +336,7 @@ WHOOP information. Osmo keeps the WHOOP information it receives so it can compar
 
 Other Osmo records. Your check-ins, journal entries, practice records, summaries and analytics events are kept until you delete your account. An eligibility record created when a person under 18 is turned away is kept for 12 months (see Section 11).
 
-Access requests. We plan to delete access requests that do not lead to an account automatically, 90 days after they are submitted. Until that automatic deletion is in place, those requests are kept until we delete them. You can ask us to delete your request at any time using the contact information in Section 18.
+Access requests. An access request that does not lead to an account is deleted automatically 90 days after it is submitted. A request that leads to an account is kept with that account and deleted when the account is deleted. You can ask us to delete your request sooner using the contact information in Section 18.
 
 Error reports. Error reports sent to Sentry are kept for the period set in Osmo's Sentry account, and then deleted by Sentry.
 
@@ -355,7 +355,7 @@ When you confirm, Osmo does the following in order:
 * Withdraws every Ozzy permission you have given and, if you had turned on an optional Ozzy memory, asks the memory provider to erase it. That erasure can stay pending until the provider confirms it.  
 * Sends a request to your connected WHOOP account to revoke Osmo's access, so Osmo can no longer receive anything new from it.  
 * Deletes the recovery, sleep and workout records it stored from that service, and clears WHOOP-derived values out of your daily briefings, check-in records and practice records.  
-* Deletes your account record. Every table holding your information points at that record with a cascade rule, so this one step also removes your consent records, check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional context sessions, analytics events, your coach permission links, and the Osmo summaries your coaches see.  
+* Deletes your account record. Every table holding your information points at that record with a cascade rule, so this one step also removes your access request, if you made one, your consent records, check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional context sessions, analytics events, your coach permission links, and the Osmo summaries your coaches see.  
 * If you signed in with Apple, asks Apple to revoke Osmo's sign-in authorization and deletes the Apple token Osmo stored. If Apple cannot be reached, the app tells you, and you can remove Osmo yourself in your Apple Account settings.  
 * Deletes your login record.
 
@@ -463,6 +463,7 @@ Where required by applicable law, we will provide additional notice or obtain ap
 
 Recent changes:
 
+* October 31, 2026: access requests that do not lead to an account are now deleted automatically 90 days after they are submitted.
 * October 30, 2026 (Osmo app version 1.0.3): named Osmo's error monitoring provider, Sentry, and described what error reports contain and what Osmo removes from them; added a list of the service providers that receive Osmo app data; removed the description of Ozzy, the AI companion, which is not part of this release; described the access request form and how long access requests are kept.
 
 ## **18\. Contact Us**
