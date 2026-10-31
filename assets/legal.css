@@ -147,6 +147,9 @@ h1 {
 
 .dateline span { white-space: nowrap; }
 
+/* The homepage's one-line tagline is wider than a phone, so it may wrap. */
+.dateline span:only-child { white-space: normal; }
+
 /* ---------- Two-column layout ---------- */
 
 .layout {

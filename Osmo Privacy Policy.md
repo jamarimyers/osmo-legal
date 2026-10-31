@@ -10,10 +10,11 @@ This summary covers the main points. The full policy below is what governs.
 * **You need to be 18 or older** to use Osmo.
 * **Connecting WHOOP is optional.** If you connect it, Osmo reads the WHOOP data you allow and uses only your own history to decide your state and recommendations.
 * **Coaches see nothing about you until you turn on sharing.** Even then, they never see your raw WHOOP numbers, your journal, your reflections or your check-in answers. Section 7 lists exactly what they can see.
+* **Your health data is used to run Osmo for you,** and coaches see only what you choose to share. Our [Consumer Health Data Privacy Policy](https://legal.osmoperformance.com/health-data/) explains what health data we collect, who receives it and your rights over it.
 * **We do not sell your personal information,** and we do not use it for advertising. Osmo has no ads and does not track you across other companies' apps or websites.
 * **We use a small set of service providers** to run Osmo. Each one is listed, with what it receives, at [legal.osmoperformance.com/subprocessors](https://legal.osmoperformance.com/subprocessors/).
 * **Email updates are optional.** Osmo emails you product updates and community news only if you ask for them and confirm by email. Every update email has a one-click unsubscribe link.
-* **You can delete your account at any time** from the Profile screen in the app. Deletion starts right away and cannot be undone.
+* **You can delete your account at any time** in the app: Profile, then Settings, then Delete account. Deletion starts right away and cannot be undone.
 * **Osmo is not medical care** and is not an emergency service. If you are in crisis, call or text 988 in the United States, or call your local emergency number.
 
 ## 1. Introduction
@@ -157,7 +158,7 @@ We use personal information to:
 * Meet our contractual and legal obligations  
 * Establish, exercise or defend legal claims
 
-**Sensitive information.** Some laws treat health information, such as WHOOP data, check-ins and journal entries, as sensitive. We use it only to provide Osmo to you, to keep Osmo secure and working, and as this policy describes. We do not use it for advertising or to build profiles of you for anyone else. Where the law requires it, we will ask for your consent before using sensitive information for a materially different purpose.
+**Sensitive information.** Some laws treat health information, such as WHOOP data, check-ins and journal entries, as sensitive. We use it only to provide Osmo to you, to show coaches what you choose to share, to keep Osmo secure and working, to improve Osmo using records of which features and practices you use, and to comply with the law. Any other research or product development uses only de-identified information, or happens with your consent. We do not use it for advertising or to build profiles of you for anyone else. We will ask for your consent before using it for any other purpose. Our [Consumer Health Data Privacy Policy](https://legal.osmoperformance.com/health-data/) has more detail for residents of Washington, Nevada and states with similar laws.
 
 **No sale of personal information.** We do not sell your personal information, and we do not share it for cross-context behavioral advertising. We do not sell, license, rent or trade WHOOP data. We make money from access to Osmo's software, not from selling data.
 
@@ -346,7 +347,7 @@ We may keep some information longer when the law requires it, or for security, f
 
 ### Account Deletion
 
-You can delete your Osmo account at any time from the Profile screen in the app, under Account. The app asks you to confirm twice before anything is deleted.
+You can delete your Osmo account at any time in the app: Profile, then Settings, then Delete account, at the bottom of the screen. The app asks you to confirm twice before anything is deleted.
 
 Deletion starts when you confirm. Osmo does not hold your account in a recovery window or keep your information while marking the account as deleted, and we cannot restore an account once it is deleted. A few steps depend on outside providers and can finish later or need action from you, as described below.
 
@@ -420,6 +421,8 @@ No method of sending or storing information is completely secure, so we cannot g
 
 **How to make a request.** Email jamari@osmoperformance.com from the email address on your Osmo account and tell us what you are asking for. We may need to confirm your identity before we act on a request, and we will use the information you give us for that only to handle the request. You can ask someone to make a request for you; we may ask for proof that you authorized them. We will respond within the time the law requires, which is usually 45 days. If we decline all or part of a request, we will explain why, and you can appeal by replying to our decision. Some rights have exceptions under the law, and we will tell you if one applies.
 
+**Health data.** If you live in Washington, Nevada or a state with a similar law, our [Consumer Health Data Privacy Policy](https://legal.osmoperformance.com/health-data/) describes your rights over your health data, including how to get a list of everyone we have shared it with.
+
 **We will not treat you differently** for using any of these rights.
 
 **Do Not Track.** Osmo does not track you across other companies' apps or websites, and it does not sell or share your information for advertising, so Do Not Track and Global Privacy Control signals have nothing to switch off.
@@ -452,6 +455,7 @@ We may update this Privacy Policy when Osmo, our practices or the law changes. W
 
 Recent changes:
 
+* October 31, 2026: published a separate Consumer Health Data Privacy Policy for Washington, Nevada and similar state laws. Limited how health information is used: apart from improving Osmo with records of which features and practices you use, research and product development use only de-identified information, unless you consent. Corrected where to find Delete account in the app.
 * October 31, 2026 (update to Osmo app version 1.0.3): described how the app filters error reports on your phone before they are sent to Sentry, and the two limits of that filtering.
 * October 31, 2026: added optional email updates. Osmo sends product updates and community email only to people who opt in and confirm, through a new service provider, Resend. Described what we keep, how long we keep it, and how to unsubscribe.
 * October 31, 2026: rewrote the policy in plainer language and added a summary at the top. Added statements that we do not sell personal information or use it for advertising, how we handle sensitive information, how to make a privacy request and appeal, where information is stored, a Do Not Track statement, and crisis-line information. Access requests that do not lead to an account are now deleted automatically 90 days after they are submitted.
