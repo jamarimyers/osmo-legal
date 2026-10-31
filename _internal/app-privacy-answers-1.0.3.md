@@ -2,7 +2,7 @@
 
 Draft, 2026-10-30. For App Store Connect > App Privacy. Nothing here has been entered in App Store Connect.
 
-**Scope.** These answers describe Osmo 1.0.3 as shipped: iOS build 24, commit `5dd5dd3` in `OsmoPerformance/osmo` (EAS build record, per `docs/release/app-store-1.0.3.md`), with **Ozzy and the memory feature turned off on the server**, as Jamari confirmed for this release. They replace the table in section 4 of `docs/release/app-store-1.0.3.md`, which counted Ozzy messages and Anthropic/Honcho. Each answer was checked against the code at `5dd5dd3` rather than taken from that document. The privacy policy and the new service-provider page in this PR say the same things.
+**Scope.** These answers describe Osmo 1.0.3 as shipped: iOS build 24, commit `5dd5dd3` in `OsmoPerformance/osmo` (EAS build record, per `docs/release/app-store-1.0.3.md`), with **Ozzy and the memory feature turned off on the server**. Jamari confirmed on 2026-10-30 that the production flags are off, or limited to test accounts. They replace the table in section 4 of `docs/release/app-store-1.0.3.md`, which counted Ozzy messages and Anthropic/Honcho. Each answer was checked against the code at `5dd5dd3` rather than taken from that document. The privacy policy and the new service-provider page in this PR say the same things.
 
 **Not included:** the date of birth typed at the 18+ step. It is checked on the phone and never sent (verified in the release doc and not changed since).
 
@@ -14,7 +14,7 @@ Draft, 2026-10-30. For App Store Connect > App Privacy. Nothing here has been en
 | Do you or your third-party partners use data for tracking? | **No.** Osmo has no ad SDKs, no data brokers and no third-party analytics. It does not combine app data with other companies' data for advertising. `mobile/package.json` at `5dd5dd3` has no ad, attribution or analytics SDK (only `@sentry/react-native`, `@supabase/supabase-js`, `expo-notifications`, `expo-updates`, `expo-apple-authentication`, `@react-native-google-signin/google-signin`). There is no App Tracking Transparency prompt and none is needed |
 | Purposes never to tick | Third-Party Advertising; Developer's Advertising or Marketing |
 
-"Used for tracking" is **No** on every row below. "Linked to identity" is **Yes** on every collected row: either the data sits under the account, or (for Diagnostics) Osmo can match the keyed pseudonym back to an account. See counsel item C3.
+"Used for tracking" is **No** on every row below. "Linked to identity" is **Yes** on every collected row: either the data sits under the account, or (for Diagnostics) Osmo can match the keyed pseudonym back to an account. Decided by Jamari on 2026-10-30.
 
 ## Data types
 
@@ -28,10 +28,10 @@ Vendor key: **SB** Supabase (database, auth, sign-in code email) · **RW** Railw
 | Contact Info: Physical Address | No | | | | | | |
 | Contact Info: Other User Contact Info | No | | | | | | |
 | Health & Fitness: Health | **Yes** | Yes | No | App Functionality, Product Personalization, Analytics | Daily check-in (PANAS) answers and emotional-state information; emotional-context answers; pre/post practice state ratings; WHOOP recovery, HRV, resting heart rate, sleep, SpO2, skin temperature and respiratory rate when WHOOP is connected | SB, RW, WH | WHOOP scopes `read:recovery read:cycles read:sleep read:profile offline` (`backend/src/routes/whoop.ts` `WHOOP_SCOPES_ARRAY`); analytics events carry practice responses and impact ratings (`backend/src/data/analyticsEvents.ts`), hence Analytics |
-| Health & Fitness: Fitness | **Yes (recommended, see C1)** | Yes | No | App Functionality, Product Personalization | WHOOP physiological-cycle data from `read:cycles`: strain, day energy expenditure (kJ), cycle average and maximum heart rate. No workout records (`read:workout` is not requested) | SB, RW, WH | `whoop.ts` scopes; `BIOMETRIC_KEYS` in `backend/src/utils/sentryScrub.ts` lists `cycle_strain`, `cycle_kilojoule…`, `cycle_avg_heart_rate` |
+| Health & Fitness: Fitness | **Yes** (Jamari, 2026-10-30) | Yes | No | App Functionality, Product Personalization | WHOOP physiological-cycle data from `read:cycles`: strain, day energy expenditure (kJ), cycle average and maximum heart rate. No workout records (`read:workout` is not requested) | SB, RW, WH | `whoop.ts` scopes; `BIOMETRIC_KEYS` in `backend/src/utils/sentryScrub.ts` lists `cycle_strain`, `cycle_kilojoule…`, `cycle_avg_heart_rate` |
 | Financial Info (all) | No | | | | No purchases or payments in the app | | |
 | Location: Precise / Coarse | No | | | | No location permission or library. The time-zone name is read from the OS for local-time reminders; Apple does not treat that as Location | | |
-| Sensitive Info | **No (see C2)** | | | | Apple's category covers race or ethnicity, sexual orientation, pregnancy, disability, religious or political beliefs, union membership, genetic information and biometric data. Osmo collects none of these as such. Emotional-state and WHOOP data are answered under Health | | |
+| Sensitive Info | **No** (Jamari, 2026-10-30; revisit if Ozzy ships) | | | | Apple's category covers race or ethnicity, sexual orientation, pregnancy, disability, religious or political beliefs, union membership, genetic information and biometric data. Osmo collects none of these as such. Emotional-state and WHOOP data are answered under Health | | |
 | Contacts | No | | | | | | |
 | User Content: Emails or Text Messages | No | | | | Ozzy is off in 1.0.3. Ozzy messages were never emails or SMS in any case | | |
 | User Content: Photos or Videos | No | | | | The app never requests photo-library access | | |
@@ -47,9 +47,9 @@ Vendor key: **SB** Supabase (database, auth, sign-in code email) · **RW** Railw
 | Usage Data: Product Interaction | **Yes** | Yes | No | Analytics, App Functionality | First-party `analytics_events` (feature use, practice completion, streaks), written to Osmo's own database | SB, RW | `mobile/services/analytics.ts`; `/athlete/analytics/event` |
 | Usage Data: Advertising Data | No | | | | | | |
 | Usage Data: Other Usage Data | No | | | | | | |
-| Diagnostics: Crash Data | **Yes** | Yes (see C3) | No | App Functionality | Native and JS crash reports from the app; error reports from the server | SE | `mobile/services/sentry.ts` (`enableNative: true`); `backend/src/index.ts` `Sentry.init` |
-| Diagnostics: Performance Data | **Yes** | Yes (see C3) | No | App Functionality | Performance traces, 10% sample (`tracesSampleRate: 0.1`) on app and server | SE | same files |
-| Diagnostics: Other Diagnostic Data | **Yes** (new vs the release doc) | Yes (see C3) | No | App Functionality | Release-health session records (`enableAutoSessionTracking: true`), device model, OS version and app version, and breadcrumbs (screens and request paths, query strings removed) attached to reports | SE | `mobile/services/sentry.ts` `scrubBreadcrumb` |
+| Diagnostics: Crash Data | **Yes** | Yes | No | App Functionality | Native and JS crash reports from the app; error reports from the server | SE | `mobile/services/sentry.ts` (`enableNative: true`); `backend/src/index.ts` `Sentry.init` |
+| Diagnostics: Performance Data | **Yes** | Yes | No | App Functionality | Performance traces, 10% sample (`tracesSampleRate: 0.1`) on app and server | SE | same files |
+| Diagnostics: Other Diagnostic Data | **Yes** (new vs the release doc) | Yes | No | App Functionality | Release-health session records (`enableAutoSessionTracking: true`), device model, OS version and app version, and breadcrumbs (screens and request paths, query strings removed) attached to reports | SE | `mobile/services/sentry.ts` `scrubBreadcrumb` |
 | Surroundings: Environment Scanning | No | | | | | | |
 | Body: Hands / Head | No | | | | | | |
 | Other Data Types | **Yes** | Yes | No | App Functionality | Optional date of birth and sport saved from Settings > Account; team or institutional affiliation | SB, RW | `mobile/app/(app)/profile/settings/account.tsx` → `PUT /athlete/profile` (`date_of_birth`) |
@@ -70,25 +70,31 @@ App (`mobile/services/sentry.ts` at `5dd5dd3`, same as current `main`):
 - **There is no `beforeSend` in the app.** App error events are not key-scrubbed the way server events are. `mobile/services/api.ts` attaches `{ path, status }` to API errors.
 - No Session Replay integration is configured.
 
-## Counsel and decision items
+## Decisions and open items
 
-| # | Item | Why it is open | Recommended default |
-|---|---|---|---|
-| C1 | **Is WHOOP cycle data "Fitness"?** | `read:cycles` returns strain, kilojoules and cycle heart rate. The release doc answered Fitness = No because `read:workout` is absent. Apple's Fitness type is "fitness and exercise data", and strain and energy expenditure are arguably that | Tick **Fitness: Yes**. Over-disclosure carries no risk, and under-disclosure is a rejection or enforcement risk |
-| C2 | **Sensitive Info** | Apple's list includes "biometric data". Counsel should confirm that this means biometric identifiers (face, fingerprint) and not physiological readings like HRV, and that emotional-state self-reports belong under Health only | **No**, pending counsel |
-| C3 | **Diagnostics: linked or not linked** | App events carry no account id, only SDK installation ids. Server events carry an HMAC pseudonym Osmo can re-derive, so Apple would treat them as linked | **Linked: Yes**, conservative (same as the release doc) |
-| C4 | **Is Ozzy really off for every real athlete in production?** | The label and the policy both say Ozzy is off. That is true only if production has `FEATURE_OZZY_CONVERSATION_ENABLED` not `true`, or `OZZY_PILOT_COHORT` empty or test accounts only, and `FEATURE_OZZY_MEMORY_ENABLED` off. The repo cannot show production env vars. The Ozzy code ships in build 24 and is turned on server-side, with no new build or review | Jamari to check the Railway env before submitting. Turning Ozzy on later means updating the label (possible any time in App Store Connect) and the policy **before** the flag flips |
-| C5 | **OTA channel** | Build 24 listens on the `testflight` channel. Any OTA published for testers reaches App Store users, so an OTA that adds a data flow changes these answers without a review | Process point. Re-check this file before each OTA |
-| C6 | **Processor terms** | The policy says providers act "subject to applicable contractual, confidentiality, security, and legal obligations". The repo has no DPA on file for Supabase, Railway, Upstash, Sentry or Expo (`policy-gap-2026-10-02.md` G14) | Collect the standard DPAs, or have counsel soften the sentence |
-| C7 | **Sentry settings** | Sentry receives the sender's IP address. Whether it is stored depends on the project's "Prevent Storing of IP Addresses" setting. The data region (US/EU) and the event retention period are account settings and are not in the repo | Turn on IP-storage prevention, then tell me the region and retention so the policy can state them |
-| C8 | **Sign-in code emails** | The policy and the provider page say Supabase's sign-in service sends the code email. If a custom SMTP provider is configured in the Supabase dashboard, that provider receives email addresses and must be listed | Check Supabase > Auth > SMTP settings |
-| C9 | **Access-request retention** | Build 24 deletes nothing automatically. `ACCESS_REQUEST_RETENTION_DAYS = 90` only flags old rows in the admin list. Automatic 90-day deletion is in `OsmoPerformance/osmo` PR 42, which is **open, not merged**. The policy says "we plan to" and that requests are kept until deleted. Also unverified: whether a request that became an account is removed when that account is deleted | Update the policy sentence when PR 42 ships |
-| C10 | **Effective date** | Set to October 30, 2026 in the draft | Change to the actual publish date if publication is later |
+Decided by Jamari on 2026-10-30:
+- **Fitness: Yes.** WHOOP cycle data (strain, kilojoules, cycle heart rate) counts as fitness data.
+- **Sensitive Info: No.** Revisit when Ozzy ships.
+- **Diagnostics: linked.**
+- **Ozzy is off** in production for real athletes, so the Ozzy text is out of the live policy. The draft is in `_internal/privacy-ozzy-section-draft.md`. Turning Ozzy on means three changes, all made **before** the flag flips: re-add that text to the policy, add Anthropic to `subprocessors/`, and update this label (possible any time in App Store Connect).
+- **Sentry "Prevent Storing of IP Addresses" is on.** The policy says so.
+
+Still open:
+
+| # | Item | Status |
+|---|---|---|
+| O1 | **Sign-in code email sender** | The policy and provider page say Supabase's sign-in service sends the code email. If Supabase > Auth > SMTP uses a custom provider (e.g. Resend), add it to `subprocessors/` and to the Email Address row |
+| O2 | **Provider DPAs** | Not yet accepted for Supabase, Sentry, Railway, Upstash or Expo. The policy sentence was softened so it no longer claims contractual obligations. Accept the standard DPAs, then consider restoring stronger wording with counsel |
+| O3 | **Access-request retention** | Build 24 deletes nothing automatically. The 90-day sweep is in `OsmoPerformance/osmo` PR 42 (open). The policy says "we plan to". Update the policy when PR 42 ships. Also unverified: whether a request that became an account is removed when that account is deleted |
+| O4 | **OTA channel** | Build 24 listens on `testflight`, so OTA updates for testers reach App Store users. Re-check this file before each OTA that adds a data flow |
+| O5 | **Sentry region and retention** | Account settings, not in the repo. The policy currently refers to "the period set in Osmo's Sentry account" |
+
+Counsel questions are collected separately for the next counsel meeting.
 
 ## Delta from `docs/release/app-store-1.0.3.md` section 4
 
 - Ozzy messages removed from Other User Content. Anthropic and Honcho removed from the vendor picture: Ozzy is off in 1.0.3.
-- Fitness changed from No to **Yes (recommended)**, see C1.
+- Fitness changed from No to **Yes** (decided).
 - Diagnostics: Other Diagnostic Data added (session records, breadcrumbs, device info).
 - Device ID now also names the Sentry and update-library installation ids.
-- Access-request fields kept. Their retention is marked pending (C9).
+- Access-request fields kept. Their retention is marked pending (O3).
