@@ -1,6 +1,6 @@
 # **Osmo Service Providers (Subprocessors)**
 
-**Last Updated:** October 30, 2026  
+**Last Updated:** October 31, 2026  
 **Applies to:** Osmo app version 1.0.3
 
 This page lists the outside companies that receive information from the Osmo app, and what each one receives. It is part of the [Osmo Privacy Policy](https://legal.osmoperformance.com/privacy/), which explains how Osmo collects, uses and shares information. We will update this page when the list changes.
@@ -28,7 +28,7 @@ These companies are not Osmo's service providers. They handle information under 
 ## **Not used in this release**
 
 * **AI model providers.** Ozzy, Osmo's AI companion, is turned off in this release, and Osmo does not send information to an AI model provider. Before Ozzy is offered, we will update this page and the Privacy Policy.
-* Osmo does not use advertising networks, data brokers or third-party analytics tools. Osmo's own analytics events are stored in Osmo's database.
+* **Advertising, data brokers and outside analytics.** Osmo does not use advertising networks, data brokers or third-party analytics tools. Osmo's own analytics events are stored in Osmo's database.
 
 ## **Questions**
 

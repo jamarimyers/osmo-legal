@@ -158,7 +158,8 @@ h1 {
 }
 
 @media (max-width: 62rem) {
-  .layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  /* minmax(0, ...) so a long address in the text cannot widen the column past the screen. */
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
 }
 
 .toc {
@@ -204,6 +205,8 @@ h1 {
 /* ---------- Prose ---------- */
 
 .prose { max-width: var(--measure); }
+
+.prose a { overflow-wrap: anywhere; }
 
 .prose section { scroll-margin-top: 5.5rem; }
 
