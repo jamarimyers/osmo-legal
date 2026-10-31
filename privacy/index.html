@@ -30,8 +30,8 @@
     <p class="eyebrow">Stateframe Technologies, Inc.</p>
     <h1>Osmo Privacy Policy</h1>
     <p class="dateline">
-      <span>Effective Date: October 23, 2026</span>
-      <span>Last Updated: October 23, 2026</span>
+      <span>Effective Date: October 30, 2026</span>
+      <span>Last Updated: October 30, 2026</span>
     </p>
   </div>
 
@@ -134,7 +134,7 @@
           <li>Emotional-context selections</li>
           <li>Journal entries</li>
           <li>Written reflections</li>
-          <li>Messages you send to Ozzy, the optional AI companion (see Section 6)</li>
+          <li>Messages you send to Ozzy, the optional AI companion, if Ozzy is offered to you. Ozzy is not available in this release (see Section 6)</li>
           <li>Exercise responses</li>
           <li>Module and exercise completion information</li>
           <li>Pre-exercise and post-exercise state information</li>
@@ -143,7 +143,7 @@
           <li>Perceived-usefulness responses</li>
           <li>Other information you voluntarily submit through the Services</li>
         </ul>
-        <p>Dictation. If you use dictation with Ozzy, your speech is converted to text on your device. Osmo does not record, upload or receive audio. Osmo receives only the text you review and send.</p>
+        <p>Dictation. If Ozzy is offered and you use dictation with it, your speech is converted to text on your device. Osmo does not record, upload or receive audio. Osmo receives only the text you review and send.</p>
         <p>Certain information is intended to remain private to the athlete, as described in Section 7 below.</p>
 
         <h3>D. Usage, Device, and Technical Information</h3>
@@ -158,13 +158,17 @@
           <li>Service performance information</li>
           <li>Analytics events</li>
         </ul>
-        <p>We seek to limit the inclusion of sensitive biometric and personal information in diagnostic, monitoring, and analytics systems.</p>
+        <p>We seek to limit the inclusion of sensitive biometric and personal information in diagnostic, monitoring, and analytics systems. Section 6 describes the error reports Osmo sends to its error monitoring provider, Sentry, and what Osmo removes from them.</p>
         <p>Analytics events are kept until you delete your account. Events about Ozzy conversations record only fixed categories, such as how a message was entered and a response-time range. They never include the text of your messages or Ozzy's replies.</p>
 
         <h3>E. Information From Institutions and Other Sources</h3>
         <p>Where Osmo is provided through an athletic department, university, team, or other organization, we may receive limited information from that organization as reasonably necessary to provision, administer, or support the Services.</p>
         <p>Such information may include, without limitation, an athlete's name, institutional affiliation, team, sport, account eligibility, or other administrative information.</p>
         <p>Institutional purchase of or access to Osmo does not independently authorize an institution, coach, or staff member to access an athlete's raw WHOOP biometric information.</p>
+
+        <h3>F. Requests for Access</h3>
+        <p>Osmo asks for a team access code when you create an account. If you do not have one, you can ask for access through a request form in the app before you have an account. The form asks for your name, email address, school, team and the wearable you use, and, if you choose, how you heard about Osmo. It also asks you to confirm that you are 18 or older and that you have read this Privacy Policy.</p>
+        <p>We use this information to review your request and, where we can, to send you an access code. It is stored in Osmo's database, is reviewed by Osmo, and is not shown to coaches or other users. Section 10 describes how long requests are kept.</p>
       </section>
 
       <section id="s4">
@@ -189,7 +193,9 @@
           <li>Connecting and synchronizing third-party services that you authorize</li>
           <li>Generating daily briefings, readiness labels, recommendations, and other Osmo-derived information</li>
           <li>Personalizing exercises and emotional-performance experiences</li>
-          <li>Writing replies in the optional Ozzy conversation, using the information described in Section 6</li>
+          <li>Writing replies in the optional Ozzy conversation, using the information described in Section 6, if Ozzy is offered to you</li>
+          <li>Reviewing requests for access and sending access codes</li>
+          <li>Finding and fixing crashes, errors and performance problems</li>
           <li>Evaluating information against your own historical patterns and baselines</li>
           <li>Displaying trends, activity, progress, and other information to you</li>
           <li>Recording check-ins, exercises, reflections, streaks, surveys, and other Osmo activity</li>
@@ -224,7 +230,7 @@
           <li>Push-notification infrastructure</li>
           <li>Communications infrastructure</li>
           <li>Analytics and product-performance tools</li>
-          <li>AI language-model services, for the optional Ozzy companion</li>
+          <li>AI language-model services, for the optional Ozzy companion (not used in this release)</li>
           <li>Customer support tools</li>
           <li>Software development and technical infrastructure</li>
           <li>Professional, accounting, insurance, compliance, and legal services</li>
@@ -233,7 +239,13 @@
         <p>Such providers may access information only to the extent reasonably necessary to perform services for Stateframe and subject to applicable contractual, confidentiality, security, and legal obligations.</p>
         <p>The categories of providers Stateframe uses may change as the Services evolve.</p>
 
-        <p><strong>AI service provider for Ozzy.</strong> Ozzy, Osmo's AI companion, is optional. In this release it is offered only to a limited pilot group. It works only after you accept a separate in-app acknowledgement for Ozzy conversations (version ozzy-conversation-v2), which you can withdraw in the app. Anthropic, the AI model provider, writes Ozzy's replies. When you send Ozzy a message, Osmo sends Anthropic:</p>
+        <p><strong>List of service providers.</strong> The service providers that receive information from the Osmo app in this release are listed, with what each one receives, at <a href="/subprocessors/">legal.osmoperformance.com/subprocessors</a>. We will update that list when it changes.</p>
+
+        <p><strong>Error monitoring.</strong> Osmo uses Sentry to find and fix crashes and errors in the Osmo app and on Osmo's server. When something goes wrong, the app or the server sends Sentry an error report. A report can include the error message and the place in Osmo's code where it happened; the app version and build; technical details about your device, such as its model and operating system version; and a short record of what happened just before the error, such as the screens that were open and the address of an Osmo server request that failed. Osmo also sends Sentry timing measurements for a sample of app and server activity, and records of app sessions (when the app was opened and whether the session ended in a crash), so we can see how reliable each release is. Sentry receives the network (IP) address of the device or server that sends a report, as any internet service does.</p>
+        <p>Osmo sets up Sentry to leave information out. Osmo turns off Sentry's option to attach personal information to reports automatically. On Osmo's server, reports are filtered before they are sent: email addresses, usernames, IP addresses, sign-in tokens and cookies are removed; fields that hold WHOOP values, emotional-state and check-in information, and written text such as journal entries, reflections and notes are removed; the body of requests that carry your own writing or your sign-up details is dropped; and the query part of web addresses is removed. Where an internal account identifier appears in a server report, it is replaced with a keyed code, so reports can be grouped by account without showing the identifier itself. Osmo can match that code to an account, so it is a pseudonym, not anonymous. In the app, release builds do not send the app's console output to Sentry and remove the query part of request addresses. Even with these steps, an error report can occasionally include other information related to what failed.</p>
+
+        <p><strong>Ozzy, the AI companion (not available in this release).</strong> Ozzy, Osmo's AI companion, is optional, and it is turned off in this release of Osmo. While it is off, Osmo does not send your information to an AI model provider. Before Ozzy is offered to anyone, we will update this Privacy Policy and the list of service providers. The rest of this section describes how Ozzy works in the current version of the app if it is turned on. We will update it before any of it changes.</p>
+        <p>Ozzy works only after you accept a separate in-app acknowledgement for Ozzy conversations (version ozzy-conversation-v2), which you can withdraw in the app. Anthropic, the AI model provider, writes Ozzy's replies. When you send Ozzy a message, Osmo sends Anthropic:</p>
         <ul>
           <li>The text of your message and the recent turns of the current conversation</li>
           <li>Information Osmo derives for the conversation: the pattern of today's check-in, the titles of practices you did recently, your current streak, and the practices Osmo ranks as suggestions, each with a short reason</li>
@@ -358,6 +370,8 @@
         <p>Retention periods may differ by category of information.</p>
         <p>WHOOP information. Osmo keeps the WHOOP information it receives so it can compare you with your own baseline over time. It is kept while your WHOOP account is connected. If you disconnect WHOOP, your raw values are hidden right away, and the records are deleted 30 days later, including WHOOP values copied into check-in and practice records and into briefing text, unless you reconnect within those 30 days. Readiness labels derived from your WHOOP data and stored in practice records are kept until you delete your account. If you delete your Osmo account, the WHOOP records are deleted immediately. See Sections 8 and 11.</p>
         <p>Other Osmo records. Your check-ins, journal entries, practice records, summaries and analytics events are kept until you delete your account. Ozzy conversations are not saved (see Section 6), and dictation audio is not recorded. An eligibility record created when a person under 18 is turned away is kept for 12 months (see Section 11).</p>
+        <p>Access requests. We plan to delete access requests that do not lead to an account automatically, 90 days after they are submitted. Until that automatic deletion is in place, those requests are kept until we delete them. You can ask us to delete your request at any time using the contact information in Section 18.</p>
+        <p>Error reports. Error reports sent to Sentry are kept for the period set in Osmo's Sentry account, and then deleted by Sentry.</p>
         <p>Where information is no longer reasonably necessary for an applicable purpose, Stateframe may delete, anonymize, aggregate, or otherwise de-identify it, subject to applicable law and third-party platform requirements.</p>
       </section>
 
@@ -421,7 +435,7 @@
         </ul>
         <p>Certain rights may be subject to exceptions or limitations under applicable law.</p>
         <p>Stateframe may take reasonable steps to verify your identity before processing a privacy request.</p>
-        <p>To exercise an applicable privacy right, contact us using the information provided in Section 18. Some choices are available directly in the Osmo app: downloading your WHOOP data, disconnecting WHOOP, withdrawing your Ozzy permissions, removing coach sharing, and deleting your account. For anything else, including support, email jamari@osmoperformance.com.</p>
+        <p>To exercise an applicable privacy right, contact us using the information provided in Section 18. Some choices are available directly in the Osmo app: downloading your WHOOP data, disconnecting WHOOP, withdrawing your Ozzy permissions (when Ozzy is available), removing coach sharing, and deleting your account. For anything else, including support, email jamari@osmoperformance.com.</p>
       </section>
 
       <section id="s14">
@@ -445,7 +459,8 @@
         <p>Osmo may contain integrations with or links to third-party products and services.</p>
         <p>Third-party services operate under their own terms and privacy practices. Stateframe is not responsible for the privacy, security, or other practices of a third party with respect to information maintained independently by that third party.</p>
         <p>Your use of WHOOP remains subject to the terms, policies, and privacy practices applicable to your relationship with WHOOP.</p>
-        <p>Ozzy's replies are written by Anthropic's AI model, which operates under Anthropic's own terms and privacy policy.</p>
+        <p>If Ozzy is offered, its replies are written by Anthropic's AI model, which operates under Anthropic's own terms and privacy policy. Ozzy is not available in this release.</p>
+        <p>The service providers that receive information from the Osmo app are listed at <a href="/subprocessors/">legal.osmoperformance.com/subprocessors</a>.</p>
       </section>
 
       <section id="s17">
@@ -453,6 +468,10 @@
         <p>Stateframe may modify this Privacy Policy from time to time to reflect changes in the Services, our practices, technology, legal requirements, or other circumstances.</p>
         <p>When we modify this Privacy Policy, we will update the &#8220;Last Updated&#8221; date above.</p>
         <p>Where required by applicable law, we will provide additional notice or obtain applicable consent before materially different practices apply to information previously collected.</p>
+        <p>Recent changes:</p>
+        <ul>
+          <li>October 30, 2026 (Osmo app version 1.0.3): named Osmo's error monitoring provider, Sentry, and described what error reports contain and what Osmo removes from them; added a list of the service providers that receive Osmo app data; marked Ozzy as not available in this release; described the access request form and how long access requests are kept.</li>
+        </ul>
       </section>
 
       <section id="s18">

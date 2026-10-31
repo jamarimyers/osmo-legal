@@ -301,6 +301,49 @@ h1 {
 
 .contact-block strong { display: block; color: var(--ink); font-weight: 600; }
 
+/* Data tables (service providers list) */
+.table-wrap {
+  overflow-x: auto;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+  line-height: 1.6;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--rule-soft);
+  color: var(--ink-soft);
+}
+
+.data-table thead th {
+  background: var(--wash);
+  color: var(--ink);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.data-table tbody th { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.data-table tbody tr:last-child th,
+.data-table tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 40rem) {
+  .data-table thead { display: none; }
+  .data-table tr { display: block; padding: 0.4rem 0; border-bottom: 1px solid var(--rule-soft); }
+  .data-table tbody tr:last-child { border-bottom: 0; }
+  .data-table th,
+  .data-table td { display: block; border-bottom: 0; padding: 0.35rem 1rem; }
+}
+
 /* ---------- Footer ---------- */
 
 .foot {
