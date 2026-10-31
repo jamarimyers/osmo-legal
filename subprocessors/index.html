@@ -64,7 +64,7 @@
               <tr>
                 <th scope="row">Supabase</th>
                 <td>Osmo's database and sign-in service</td>
-                <td>Everything Osmo stores about your account: profile and sign-in details (a password, if you create one, is stored in hashed form), check-ins, journal entries, practice records, WHOOP data, coach-sharing settings, analytics events and access requests. Supabase's sign-in service also sends the email that carries your one-time sign-in code.</td>
+                <td>Everything Osmo stores about your account: profile and sign-in details (a password, if you create one, is stored in hashed form), check-ins, journal entries, practice records, WHOOP data, coach-sharing settings, analytics events, access requests and email update choices. Supabase's sign-in service also sends the email that carries your one-time sign-in code.</td>
               </tr>
               <tr>
                 <th scope="row">Railway</th>
@@ -85,6 +85,11 @@
                 <th scope="row">Expo</th>
                 <td>Push notifications and app updates</td>
                 <td>Your device's push token and the text of each notification, if you allow notifications. Osmo's notifications use generic wording and do not include WHOOP values. When the app checks for updates, Expo receives technical details needed to deliver them, such as the app version and platform.</td>
+              </tr>
+              <tr>
+                <th scope="row">Resend</th>
+                <td>Sends Osmo's optional email updates</td>
+                <td>Only if you ask for email updates: your email address, whether you are subscribed, the one email that asks you to confirm, and each update email sent to you. Resend tells Osmo when an email bounces or is marked as spam. It does not receive your name or anything from your Osmo activity, and Osmo has turned off Resend's open and click tracking.</td>
               </tr>
             </tbody>
           </table>

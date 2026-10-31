@@ -9,11 +9,12 @@ This page lists the outside companies that receive information from the Osmo app
 
 | Provider | What it does for Osmo | What it receives |
 |---|---|---|
-| Supabase | Osmo's database and sign-in service | Everything Osmo stores about your account: profile and sign-in details (a password, if you create one, is stored in hashed form), check-ins, journal entries, practice records, WHOOP data, coach-sharing settings, analytics events and access requests. Supabase's sign-in service also sends the email that carries your one-time sign-in code. |
+| Supabase | Osmo's database and sign-in service | Everything Osmo stores about your account: profile and sign-in details (a password, if you create one, is stored in hashed form), check-ins, journal entries, practice records, WHOOP data, coach-sharing settings, analytics events, access requests and email update choices. Supabase's sign-in service also sends the email that carries your one-time sign-in code. |
 | Railway | Hosts Osmo's server | The requests the Osmo app sends to Osmo's server, while the server handles them, and the server's operational logs, which use internal account identifiers rather than your name or email address. |
 | Upstash | Background job queue for Osmo's server | Internal account identifiers, WHOOP account identifiers and scheduling details for background work, such as fetching new WHOOP data, and short-lived records used while you connect WHOOP. It does not receive WHOOP health values. Finished jobs are removed within 24 hours and failed jobs within 7 days. |
 | Sentry | Crash and error reports | Error reports, performance timings and app-session records from the Osmo app and server, filtered as described in Section 6 of the Privacy Policy. Internal account identifiers in server reports are replaced with keyed codes. |
 | Expo | Push notifications and app updates | Your device's push token and the text of each notification, if you allow notifications. Osmo's notifications use generic wording and do not include WHOOP values. When the app checks for updates, Expo receives technical details needed to deliver them, such as the app version and platform. |
+| Resend | Sends Osmo's optional email updates | Only if you ask for email updates: your email address, whether you are subscribed, the one email that asks you to confirm, and each update email sent to you. Resend tells Osmo when an email bounces or is marked as spam. It does not receive your name or anything from your Osmo activity, and Osmo has turned off Resend's open and click tracking. |
 
 ## **Platforms you choose to use with Osmo**
 
