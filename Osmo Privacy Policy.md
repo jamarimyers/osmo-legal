@@ -205,7 +205,14 @@ On our server, reports are filtered before they are sent:
 * An error that comes from journal or Ozzy code keeps its type but loses its message text.  
 * An internal account identifier is replaced with a keyed code, so reports can be grouped by account without showing the identifier. We can match that code to an account, so it is a pseudonym, not anonymous. (Section 11 explains how keyed codes work.)
 
-In the app, release builds do not send the app's console output to Sentry and remove the query part of request addresses.
+Starting with the October 31, 2026 update to app version 1.0.3, the app also filters reports on your phone before they are sent. A new installation downloads that update the first time it opens with an internet connection, and uses it from the next launch. The app filters reports this way:
+
+* Fields that hold WHOOP values, emotional states, check-in answers, and written text such as journal entries, reflections and notes are removed, and so are sign-in tokens and passwords.  
+* The body of any request is dropped, and so is the query part of web addresses.  
+* An error from a request that carries your own writing, your sign-up details or a team code, or an error whose message mentions the journal or Ozzy, keeps its type but loses its message text.  
+* Release builds do not send the app's console output, and the labels of buttons and other items you tap are left out of the record of what happened before an error.
+
+Two limits apply in the app. The app does not replace internal account identifiers with keyed codes, so an app report can include one. And if the app crashes in its native code (the parts that run directly on your phone's operating system rather than in the app's JavaScript), the crash is reported on the next launch without passing through this filtering.
 
 Even with these steps, an error report can occasionally include other information related to what failed.
 
@@ -445,6 +452,7 @@ We may update this Privacy Policy when Osmo, our practices or the law changes. W
 
 Recent changes:
 
+* October 31, 2026 (update to Osmo app version 1.0.3): described how the app filters error reports on your phone before they are sent to Sentry, and the two limits of that filtering.
 * October 31, 2026: added optional email updates. Osmo sends product updates and community email only to people who opt in and confirm, through a new service provider, Resend. Described what we keep, how long we keep it, and how to unsubscribe.
 * October 31, 2026: rewrote the policy in plainer language and added a summary at the top. Added statements that we do not sell personal information or use it for advertising, how we handle sensitive information, how to make a privacy request and appeal, where information is stored, a Do Not Track statement, and crisis-line information. Access requests that do not lead to an account are now deleted automatically 90 days after they are submitted.
 * October 30, 2026 (Osmo app version 1.0.3): named Osmo's error monitoring provider, Sentry, and described what error reports contain and what Osmo removes from them; added a list of the service providers that receive Osmo app data; removed the description of Ozzy, the AI companion, which is not part of this release; described the access request form and how long access requests are kept.
