@@ -12,6 +12,7 @@ This summary covers the main points. The full policy below is what governs.
 * **Coaches see nothing about you until you turn on sharing.** Even then, they never see your raw WHOOP numbers, your journal, your reflections or your check-in answers. Section 7 lists exactly what they can see.
 * **We do not sell your personal information,** and we do not use it for advertising. Osmo has no ads and does not track you across other companies' apps or websites.
 * **We use a small set of service providers** to run Osmo. Each one is listed, with what it receives, at [legal.osmoperformance.com/subprocessors](https://legal.osmoperformance.com/subprocessors/).
+* **Email updates are optional.** Osmo emails you product updates and community news only if you ask for them and confirm by email. Every update email has a one-click unsubscribe link.
 * **You can delete your account at any time** from the Profile screen in the app. Deletion starts right away and cannot be undone.
 * **Osmo is not medical care** and is not an emergency service. If you are in crisis, call or text 988 in the United States, or call your local emergency number.
 
@@ -109,9 +110,17 @@ A school or team that buys or provides Osmo does not get access to your raw WHOO
 
 ### F. Requests for Access
 
-Osmo asks for a team access code when you create an account. If you do not have one, you can ask for access through a request form in the app before you have an account. The form asks for your name, email address, school, team and the wearable you use, and, if you choose, how you heard about Osmo. It also asks you to confirm that you are 18 or older and that you have read this Privacy Policy.
+Osmo asks for a team access code when you create an account. If you do not have one, you can ask for access through a request form in the app before you have an account. The form asks for your name, email address, school, team and the wearable you use, and, if you choose, how you heard about Osmo. It also asks you to confirm that you are 18 or older and that you have read this Privacy Policy. The form also has an optional box for email updates, which stays unticked unless you tick it (see G below).
 
 We use this information to review your request and, where we can, to send you an access code. It is stored in Osmo's database, is reviewed only by us, and is not shown to coaches or other users. Section 10 explains how long requests are kept.
+
+### G. Email Updates
+
+If you choose, Osmo emails you product updates, news about the mental side of sport, tools, reading and other community content ("email updates"). You can ask for them by ticking the optional box on the access request form or by turning on Email updates in the app's Settings. We then send one email to that address with a link to confirm it is yours. Until you confirm, we send nothing else.
+
+For email updates we keep your email address, whether you are subscribed, and a record of your choice: when and where you made it (the request form or Settings), the wording you agreed to, when you confirmed, and when and how you unsubscribed. We also keep a record of which update emails were sent to you. We do not use your check-ins, journal entries, readiness labels, WHOOP data or other app activity to decide what to send, and update emails never include that information. Osmo does not track whether you open update emails or click their links.
+
+Email updates are separate from your access request and your account. Not choosing them, or unsubscribing later, does not affect your access request or how you use Osmo.
 
 ## 4. Sources of Information
 
@@ -138,6 +147,7 @@ We use personal information to:
 * Record check-ins, exercises, reflections, streaks and surveys  
 * Review requests for access and send access codes  
 * Send service messages and notifications  
+* Send email updates, if you ask for them and confirm  
 * Answer support requests  
 * Find and fix crashes, errors and performance problems  
 * Improve Osmo's features, reliability and accessibility  
@@ -202,6 +212,8 @@ Even with these steps, an error report can occasionally include other informatio
 **AI features.** This release of Osmo does not include Ozzy, the AI companion, and Osmo does not send your information to an AI model provider. If we offer Ozzy or another AI feature, we will update this Privacy Policy and the list of service providers before it is available, and it will require a separate in-app acknowledgement.
 
 **Push notifications.** If you allow notifications, Osmo sends the notification text and your device's push token to Expo's push service, which delivers the notification through Apple's or Google's notification service. Morning notifications use generic wording and do not include WHOOP values.
+
+**Email updates.** Osmo uses Resend to send email updates and the one email that asks you to confirm them. Resend receives your email address, whether you are subscribed, and the content of each email sent to you, and tells us if an email bounces or is marked as spam so we can stop sending to that address. Resend does not receive your name or anything from your Osmo activity. Your sign-in code email is sent by Supabase, not Resend.
 
 ### B. Coaches and Athletic Department Staff
 
@@ -317,6 +329,8 @@ We keep personal information for as long as we need it to provide Osmo and for t
 
 **Access requests.** An access request that does not lead to an account is deleted automatically 90 days after it is submitted. A request that leads to an account is kept with that account and deleted when the account is deleted. You can ask us to delete your request sooner using the contact information in Section 18.
 
+**Email updates.** If you ask for email updates but do not confirm within 30 days, we delete the request. Once you confirm, we keep your email address and the record of your choice while you are subscribed. If you unsubscribe, we keep the address, marked as unsubscribed, with that record, so we do not email you again unless you opt in and confirm again; you can ask us to delete it using the contact information in Section 18. Email updates are kept separately from access requests: your access request is still deleted 90 days after you submit it, but a confirmed subscription continues until you unsubscribe. If you turned on email updates in the app, deleting your account deletes that record, and we ask Resend to delete your address within a day.
+
 **Error reports.** Error reports sent to Sentry are kept for the period set in Osmo's Sentry account, and then deleted by Sentry.
 
 We may keep some information longer when the law requires it, or for security, fraud prevention, contractual or dispute-resolution purposes, or to enforce our terms. When we no longer need information, we may delete it or de-identify it.
@@ -334,7 +348,7 @@ When you confirm, Osmo does the following, in this order:
 1. Withdraws every Ozzy permission you have given and, if you turned on Ozzy's optional memory, asks the memory provider to erase it. That erasure can stay pending until the provider confirms it. If you never used Ozzy, there is nothing to withdraw.  
 2. Asks WHOOP to revoke Osmo's access, so Osmo can no longer receive anything new from your WHOOP account.  
 3. Deletes the WHOOP records Osmo stored, and clears WHOOP values out of your daily briefings, check-in records and practice records.  
-4. Deletes your account record. Every record holding your information is linked to your account record and is deleted with it. That removes your access request, if you made one, your consent records, check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional-context sessions, analytics events, your coach sharing links, and the Osmo summaries your coaches see.  
+4. Deletes your account record. Every record holding your information is linked to your account record and is deleted with it. That removes your access request, if you made one, your consent records, your email updates record, if you turned email updates on in the app, check-ins, journal entries, module progress and exercise completions, daily briefings, streak records, milestones, survey responses, emotional-context sessions, analytics events, your coach sharing links, and the Osmo summaries your coaches see.  
 5. If you signed in with Apple, asks Apple to revoke Osmo's sign-in authorization and deletes the Apple token Osmo stored. If Apple cannot be reached, the app tells you, and you can remove Osmo yourself in your Apple Account settings.  
 6. Deletes your login record.
 
@@ -383,7 +397,10 @@ No method of sending or storing information is completely secure, so we cannot g
 * Disconnect WHOOP  
 * Turn coach sharing off  
 * Turn notifications off in your phone's settings  
+* Turn email updates on or off (Settings, Email updates)  
 * Delete your account
+
+**Email updates.** Every update email has a one-click unsubscribe link that works without signing in, and unsubscribing takes effect right away.
 
 **Your rights.** Depending on where you live, you may have the right to:
 
@@ -428,6 +445,7 @@ We may update this Privacy Policy when Osmo, our practices or the law changes. W
 
 Recent changes:
 
+* October 31, 2026: added optional email updates. Osmo sends product updates and community email only to people who opt in and confirm, through a new service provider, Resend. Described what we keep, how long we keep it, and how to unsubscribe.
 * October 31, 2026: rewrote the policy in plainer language and added a summary at the top. Added statements that we do not sell personal information or use it for advertising, how we handle sensitive information, how to make a privacy request and appeal, where information is stored, a Do Not Track statement, and crisis-line information. Access requests that do not lead to an account are now deleted automatically 90 days after they are submitted.
 * October 30, 2026 (Osmo app version 1.0.3): named Osmo's error monitoring provider, Sentry, and described what error reports contain and what Osmo removes from them; added a list of the service providers that receive Osmo app data; removed the description of Ozzy, the AI companion, which is not part of this release; described the access request form and how long access requests are kept.
 
