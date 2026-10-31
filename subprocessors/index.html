@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Service Providers | Osmo</title>
+<meta name="description" content="The outside companies that receive information from the Osmo app, and what each one receives.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://legal.osmoperformance.com/subprocessors/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/legal.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="wordmark" href="/">Osmo</a>
+    <nav class="masthead__nav">
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="doc-head">
+    <p class="eyebrow">Stateframe Technologies, Inc.</p>
+    <h1>Osmo Service Providers</h1>
+    <p class="dateline">
+      <span>Last Updated: October 30, 2026</span>
+      <span>Applies to Osmo app version 1.0.3</span>
+    </p>
+  </div>
+
+  <div class="layout">
+
+    <nav class="toc" aria-label="Contents">
+      <p class="toc__label">Contents</p>
+      <ol>
+        <li><a href="#processors">Service providers</a></li>
+        <li><a href="#platforms">Platforms you choose</a></li>
+        <li><a href="#not-used">Not used in this release</a></li>
+        <li><a href="#questions">Questions</a></li>
+      </ol>
+    </nav>
+
+    <article class="prose">
+
+      <section id="intro">
+        <p>This page lists the outside companies that receive information from the Osmo app, and what each one receives. It is part of the <a href="/privacy/">Osmo Privacy Policy</a>, which explains how Osmo collects, uses and shares information. We will update this page when the list changes.</p>
+      </section>
+
+      <section id="processors">
+        <h2>Service providers that process information for Osmo</h2>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr><th scope="col">Provider</th><th scope="col">What it does for Osmo</th><th scope="col">What it receives</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Supabase</th>
+                <td>Osmo's database and sign-in service</td>
+                <td>Everything Osmo stores about your account: profile and sign-in details (a password, if you create one, is stored in hashed form), check-ins, journal entries, practice records, WHOOP data, coach-sharing settings, analytics events and access requests. Supabase's sign-in service also sends the email that carries your one-time sign-in code.</td>
+              </tr>
+              <tr>
+                <th scope="row">Railway</th>
+                <td>Hosts Osmo's server</td>
+                <td>The requests the Osmo app sends to Osmo's server, while the server handles them, and the server's operational logs, which use internal account identifiers rather than your name or email address.</td>
+              </tr>
+              <tr>
+                <th scope="row">Upstash</th>
+                <td>Background job queue for Osmo's server</td>
+                <td>Internal account identifiers, WHOOP account identifiers and scheduling details for background work, such as fetching new WHOOP data, and short-lived records used while you connect WHOOP. It does not receive WHOOP health values. Finished jobs are removed within 24 hours and failed jobs within 7 days.</td>
+              </tr>
+              <tr>
+                <th scope="row">Sentry</th>
+                <td>Crash and error reports</td>
+                <td>Error reports, performance timings and app-session records from the Osmo app and server, filtered as described in <a href="/privacy/#s6">Section 6 of the Privacy Policy</a>. Internal account identifiers in server reports are replaced with keyed codes.</td>
+              </tr>
+              <tr>
+                <th scope="row">Expo</th>
+                <td>Push notifications and app updates</td>
+                <td>Your device's push token and the text of each notification, if you allow notifications. Osmo's notifications use generic wording and do not include WHOOP values. When the app checks for updates, Expo receives technical details needed to deliver them, such as the app version and platform.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="platforms">
+        <h2>Platforms you choose to use with Osmo</h2>
+        <p>These companies are not Osmo's service providers. They handle information under their own terms and privacy policies when you choose to use them with Osmo.</p>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr><th scope="col">Company</th><th scope="col">When it is involved</th><th scope="col">What is shared</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Apple</th>
+                <td>If you use Sign in with Apple, and when notifications are delivered to your iPhone</td>
+                <td>For Sign in with Apple, Apple sends Osmo an account identifier and, if you choose to share them, your name and email address. Notifications reach your device through Apple's notification service.</td>
+              </tr>
+              <tr>
+                <th scope="row">Google</th>
+                <td>If you use Sign in with Google</td>
+                <td>Google sends Osmo an account identifier, your name and your email address.</td>
+              </tr>
+              <tr>
+                <th scope="row">WHOOP</th>
+                <td>If you connect your WHOOP account</td>
+                <td>WHOOP is the source of your WHOOP data, not a provider Osmo sends your Osmo information to. With your authorization, Osmo receives recovery, physiological cycle, sleep and profile information from WHOOP, as described in <a href="/privacy/#s3">Section 3 of the Privacy Policy</a>.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="not-used">
+        <h2>Not used in this release</h2>
+        <ul>
+          <li><strong>AI model providers.</strong> Ozzy, Osmo's AI companion, is turned off in this release, and Osmo does not send information to an AI model provider. Before Ozzy is offered, we will update this page and the Privacy Policy.</li>
+          <li>Osmo does not use advertising networks, data brokers or third-party analytics tools. Osmo's own analytics events are stored in Osmo's database.</li>
+        </ul>
+      </section>
+
+      <section id="questions">
+        <h2>Questions</h2>
+        <p>For questions about this list, contact <a href="mailto:jamari@osmoperformance.com">jamari@osmoperformance.com</a>.</p>
+      </section>
+
+    </article>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="foot__inner">
+    <p>Stateframe Technologies, Inc. Operator of Osmo.</p>
+    <div class="foot__links">
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+      <a href="mailto:jamari@osmoperformance.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
