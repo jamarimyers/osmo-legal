@@ -205,7 +205,7 @@ On our server, reports are filtered before they are sent:
 * An error that comes from journal or Ozzy code keeps its type but loses its message text.  
 * An internal account identifier is replaced with a keyed code, so reports can be grouped by account without showing the identifier. We can match that code to an account, so it is a pseudonym, not anonymous. (Section 11 explains how keyed codes work.)
 
-In the app, reports are filtered on your phone before they are sent:
+Starting with the October 31, 2026 update to app version 1.0.3, the app also filters reports on your phone before they are sent. A new installation downloads that update the first time it opens with an internet connection, and uses it from the next launch. The app filters reports this way:
 
 * Fields that hold WHOOP values, emotional states, check-in answers, and written text such as journal entries, reflections and notes are removed, and so are sign-in tokens and passwords.  
 * The body of any request is dropped, and so is the query part of web addresses.  
