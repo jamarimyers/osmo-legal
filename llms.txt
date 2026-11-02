@@ -1,0 +1,36 @@
+# Osmo Performance
+
+> Osmo is an emotional performance app for college athletes aged 18 and over. Each day an athlete does a short check-in on how they feel, can add recovery and sleep data from a wearable, and gets one guided practice to try before training or competition. Athletic departments bring Osmo to their teams. Osmo is a performance and well-being coaching tool, not therapy or medical care. It is made by Stateframe Technologies, Inc. and is not affiliated with the DJI Osmo cameras, the Osmo learning games for children or Osmo Nutrition.
+
+Status: early access. The iPhone app is in beta and opening team by team; it is not on the App Store yet. Athletes can join the beta at https://osmoperformance.com/athletes and departments can request a pilot at https://osmoperformance.com/departments.
+
+Key facts:
+
+- Name: Osmo (company and App Store name: Osmo Performance). Website: https://osmoperformance.com/
+- Audience: college athletes aged 18 and over, and the athletic departments, coaches and sports staff who support them.
+- Daily check-in: ten feeling words from the Positive and Negative Affect Schedule (PANAS), each rated 1 to 5, plus an optional note. About 90 seconds.
+- Wearable: optional. Osmo compares recovery and sleep only with the athlete's own history, never with other athletes. Today Osmo connects with WHOOP through the WHOOP developer platform; it is built to complement WHOOP, not replace it, and is not affiliated with or endorsed by WHOOP, Inc.
+- Coaches: see nothing until an athlete turns on sharing, and then only Osmo's summary labels and whether the athlete checked in today. Never raw wearable numbers, check-in answers or journal entries.
+- Privacy: Osmo does not sell personal information, does not use it for advertising and has no ads.
+- Cost: athletes do not pay. Athletic departments bring Osmo to their programs; athletes join with a team code.
+- Not: a clinical, diagnostic or mental health treatment product. In a crisis in the US, call or text 988.
+
+## Pages
+
+- [Home](https://osmoperformance.com/): what Osmo is and the daily loop (read the signal, name the state, take the next move, learn what works)
+- [FAQ](https://osmoperformance.com/faq): plain answers about the app, PANAS, wearables, coaches, privacy and cost
+- [For athletic departments](https://osmoperformance.com/departments): request a pilot for your teams
+- [For athletes](https://osmoperformance.com/athletes): join the athlete beta
+- [Founder story](https://osmoperformance.com/founder): why Jamari Myers built Osmo
+- [Support](https://osmoperformance.com/support): contact, account deletion, password reset, team codes
+
+## Policies
+
+- [Privacy Policy](https://legal.osmoperformance.com/privacy/)
+- [Consumer Health Data Privacy Policy](https://legal.osmoperformance.com/health-data/)
+- [Terms of Service](https://legal.osmoperformance.com/terms/)
+
+## Optional
+
+- [Full text for AI agents](https://osmoperformance.com/llms-full.txt): every fact above plus the complete FAQ
+- [Instagram](https://www.instagram.com/osmo.performance/)

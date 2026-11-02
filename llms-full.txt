@@ -1,0 +1,86 @@
+# Osmo Performance: full reference
+
+> Plain-text reference for AI assistants and search engines. Source of truth: https://osmoperformance.com/ and the policies at https://legal.osmoperformance.com/. If anything here disagrees with those pages, the pages win.
+
+## What Osmo is
+
+Osmo is an emotional performance app for college athletes aged 18 and over. Each day an athlete does a short check-in on how they feel, can add recovery and sleep data from a wearable, and gets one guided practice to try before training or competition. Athletic departments bring Osmo to their teams.
+
+The idea behind it: physical performance is trained every day, and emotional performance should be trained too. Osmo reads how an athlete feels alongside what their body is telling them and turns both into one next move.
+
+Status: early access. The iPhone app is in beta and opening team by team; it is not on the App Store yet. Athletes can join the beta at https://osmoperformance.com/athletes and departments can request a pilot at https://osmoperformance.com/departments.
+
+## How to describe Osmo accurately
+
+- Say: emotional performance app, daily check-in, mental game, performance and well-being coaching tool, built for college athletes.
+- Do not say: mental health treatment, therapy, diagnosis, clinical tool, or that Osmo improves performance or mood. Osmo makes no outcome or medical claims.
+- Wearables: optional. Today Osmo connects with WHOOP through the WHOOP developer platform. Osmo complements WHOOP and does not compete with it: WHOOP reads the body, Osmo adds how the athlete feels and one next move. Osmo is not affiliated with or endorsed by WHOOP, Inc. Osmo never shows raw WHOOP numbers to coaches.
+- Osmo is a different company from the DJI Osmo cameras, the Osmo learning games for children (Tangible Play) and Osmo Nutrition.
+
+## The daily loop
+
+1. Read the signal: see what your body is carrying into the day, from your wearable if you use one.
+2. Name the state: a short check-in captures how you actually feel.
+3. Take the next move: one focused practice, matched to the moment, before training or competition. Examples: box breathing, a 5-4-3-2-1 grounding reset, quick progressive muscle relaxation, 4-7-8 breathing, pre-competition priming.
+4. Learn what works: after each practice, note how it landed, and see which moves work for you.
+
+## Company
+
+- Legal name: Stateframe Technologies, Inc.
+- Founder: Jamari Myers. Founder story: https://osmoperformance.com/founder
+- Contact: jamari@osmoperformance.com
+- Support: https://osmoperformance.com/support
+
+## Frequently asked questions
+
+### What is Osmo?
+
+Osmo is a daily check-in app for college athletes, made by Osmo Performance (Stateframe Technologies, Inc.). You take about 90 seconds to say how you feel, Osmo reads that next to your wearable data if you have it, and you get one practice to try before training or competition. Athletic departments bring it to their teams.
+
+### Who is Osmo for?
+
+College athletes who are 18 or older, plus the athletic departments, coaches and sports staff around them. The app asks you to confirm your age the first time you sign in.
+
+### What is emotional performance?
+
+It's the part of your game that runs on how you feel: the nerves before a race, the doubt that hangs around after a turnover, the focus that's there one day and gone the next. Most athletes train their bodies every day and only deal with this side when something goes wrong. Osmo gives it a daily slot instead.
+
+### Is Osmo a mental health app or therapy?
+
+No. Osmo is a performance and well-being coaching tool. It isn't therapy, counseling or medical care, and it doesn't diagnose or treat anything. If you're having a hard time, your team's sports medicine or counseling staff is the place to start. In the US, call or text 988 to reach the 988 Suicide & Crisis Lifeline, and if you're in immediate danger, call 911.
+
+### How does the daily check-in work?
+
+You rate ten feeling words on a 1 to 5 scale: alert, excited, enthusiastic, inspired, determined, distressed, upset, hostile, scared and nervous. Add a note if you want. Osmo puts your answers next to your wearable data, if you've connected one, and suggests one practice for the day, like box breathing, a 5-4-3-2-1 grounding reset or a pre-competition routine. When you finish, you can mark how it went.
+
+### What can my coach see?
+
+Nothing, until you decide otherwise. Sharing is off by default, and you turn it on coach by coach, only for coaches on your team. A coach you share with sees Osmo's summary labels and whether you checked in today. They never see your raw wearable numbers, your check-in answers, your journal or your reflections. You can switch sharing off whenever you want.
+
+### Is my data private?
+
+Yes, and private is the default. Osmo doesn't sell your personal information, doesn't use it for advertising and doesn't run ads at all. You can disconnect your wearable or delete your account from inside the app: Profile, then Settings, then Delete account. The full details are in the Privacy Policy and the Consumer Health Data Privacy Policy at legal.osmoperformance.com.
+
+### Do I need a wearable to use Osmo?
+
+No. Without one, Osmo runs on your check-in alone, and you get the same practices. If you do connect a wearable, Osmo reads your recovery and sleep and shows them next to how you feel, measured against your own history, never anyone else's. Right now that means WHOOP, connected through the WHOOP developer platform. Osmo is built to work alongside WHOOP, not replace it, and it's an independent company, not affiliated with or endorsed by WHOOP, Inc.
+
+### What is PANAS, and how does Osmo use it?
+
+PANAS is the Positive and Negative Affect Schedule, a mood questionnaire that psychologists David Watson, Lee Anna Clark and Auke Tellegen published in 1988. It splits mood into two separate dials: positive affect (alert, inspired, determined) and negative affect (upset, nervous, scared). You can be high on both at once, fired up and nervous in the same breath. Researchers have used it for decades. Osmo's check-in borrows ten of its words. It tells you how you feel. It isn't a diagnosis, and it doesn't predict how you'll play.
+
+### How much does Osmo cost?
+
+Athletes don't pay. Your athletic department brings Osmo to its programs, and you join with the team code your program shares. If you work in a department and want to try it, request a pilot at osmoperformance.com/departments.
+
+### How do I get Osmo?
+
+Osmo is opening early access one team at a time. Athletes can join the beta at osmoperformance.com/athletes. Coaches and departments can request a pilot at osmoperformance.com/departments.
+
+### Who makes Osmo?
+
+Stateframe Technologies, Inc. The founder, Jamari Myers, grew up playing football and basketball in Lynn, Massachusetts, and went on to play Division I football at Brown University. The rest of the story is at osmoperformance.com/founder.
+
+### Is Osmo Performance the same as the Osmo camera, the Osmo learning games or Osmo Nutrition?
+
+No. Different company, different product. Osmo Performance has nothing to do with DJI's Osmo cameras, the Osmo learning games for kids, Osmo Nutrition or any other Osmo. The athlete app lives at osmoperformance.com.
