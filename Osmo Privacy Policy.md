@@ -113,7 +113,7 @@ A school or team that buys or provides Osmo does not get access to your raw WHOO
 
 Osmo asks for a team access code when you create an account. If you do not have one, you can ask for access through a request form in the app before you have an account. The form asks for your name, email address, school, team and the wearable you use, and, if you choose, how you heard about Osmo. It also asks you to confirm that you are 18 or older and that you have read this Privacy Policy. The form also has an optional box for email updates, which stays unticked unless you tick it (see G below).
 
-We use this information to review your request and, where we can, to email you an access code. That email is sent through our email provider, Resend (see Section 6), and can mention your first name, school, sport, team and how you heard about Osmo. It is stored in Osmo's database, is reviewed only by us, and is not shown to coaches or other users. Section 10 explains how long requests are kept.
+We use this information to review your request and, where we can, to email you an access code. That email is sent through our email provider, Resend (see Section 6), and can mention your first name, school, sport and how you heard about Osmo. It is stored in Osmo's database, is reviewed only by us, and is not shown to coaches or other users. Section 10 explains how long requests are kept.
 
 ### G. Email Updates
 
@@ -221,7 +221,7 @@ Even with these steps, an error report can occasionally include other informatio
 
 **Push notifications.** If you allow notifications, Osmo sends the notification text and your device's push token to Expo's push service, which delivers the notification through Apple's or Google's notification service. Morning notifications use generic wording and do not include WHOOP values.
 
-**Email updates.** Osmo uses Resend to send email updates, the one email that asks you to confirm them, and the email that answers an access request with your access code. For email updates, Resend receives your email address, whether you are subscribed, and the content of each email sent to you. For an access request, Resend receives your email address and the content of that email, which can include your first name, school, sport, team and how you heard about Osmo. Resend tells us if an email bounces or is marked as spam so we can stop sending to that address. Resend does not receive anything from your Osmo app activity. Your sign-in code email is sent by Supabase, not Resend.
+**Email updates.** Osmo uses Resend to send email updates, the one email that asks you to confirm them, and the email that answers an access request with your access code. For email updates, Resend receives your email address, whether you are subscribed, and the content of each email sent to you. For an access request, Resend receives your email address and the content of that email, which can include your first name, school, sport and how you heard about Osmo. Resend tells us if an email bounces or is marked as spam so we can stop sending to that address. Resend does not receive anything from your Osmo app activity. Your sign-in code email is sent by Supabase, not Resend.
 
 ### B. Coaches and Athletic Department Staff
 
