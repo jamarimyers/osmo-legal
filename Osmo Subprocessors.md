@@ -1,6 +1,6 @@
 # **Osmo Service Providers (Subprocessors)**
 
-**Last Updated:** October 31, 2026  
+**Last Updated:** November 15, 2026  
 **Applies to:** Osmo app version 1.0.3
 
 This page lists the outside companies that receive information from the Osmo app, and what each one receives. It is part of the [Osmo Privacy Policy](https://legal.osmoperformance.com/privacy/), which explains how Osmo collects, uses and shares information. We will update this page when the list changes.
@@ -14,7 +14,7 @@ This page lists the outside companies that receive information from the Osmo app
 | Upstash | Background job queue for Osmo's server | Internal account identifiers, WHOOP account identifiers and scheduling details for background work, such as fetching new WHOOP data, and short-lived records used while you connect WHOOP. It does not receive WHOOP health values. Finished jobs are removed within 24 hours and failed jobs within 7 days. |
 | Sentry | Crash and error reports | Error reports, performance timings and app-session records from the Osmo app and server, filtered as described in Section 6 of the Privacy Policy. Internal account identifiers in server reports are replaced with keyed codes. |
 | Expo | Push notifications and app updates | Your device's push token and the text of each notification, if you allow notifications. Osmo's notifications use generic wording and do not include WHOOP values. When the app checks for updates, Expo receives technical details needed to deliver them, such as the app version and platform. |
-| Resend | Sends Osmo's optional email updates | Only if you ask for email updates: your email address, whether you are subscribed, the one email that asks you to confirm, and each update email sent to you. Resend tells Osmo when an email bounces or is marked as spam. It does not receive your name or anything from your Osmo activity, and Osmo has turned off Resend's open and click tracking. |
+| Resend | Sends Osmo's optional email updates, and the email that answers an access request | If you ask for email updates: your email address, whether you are subscribed, the one email that asks you to confirm, and each update email sent to you. If you ask for access: your email address and the email that answers your request, which includes your access code and can include your first name, school, sport, team and how you heard about Osmo. Resend tells Osmo when an email bounces or is marked as spam. It does not receive anything from your Osmo app activity, and Osmo has turned off Resend's open and click tracking. |
 
 ## **Platforms you choose to use with Osmo**
 
