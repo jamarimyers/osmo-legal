@@ -1,7 +1,7 @@
 # Osmo Privacy Policy
 
 **Effective Date:** October 31, 2026  
-**Last Updated:** October 31, 2026
+**Last Updated:** November 15, 2026
 
 ## At a Glance
 
@@ -113,7 +113,7 @@ A school or team that buys or provides Osmo does not get access to your raw WHOO
 
 Osmo asks for a team access code when you create an account. If you do not have one, you can ask for access through a request form in the app before you have an account. The form asks for your name, email address, school, team and the wearable you use, and, if you choose, how you heard about Osmo. It also asks you to confirm that you are 18 or older and that you have read this Privacy Policy. The form also has an optional box for email updates, which stays unticked unless you tick it (see G below).
 
-We use this information to review your request and, where we can, to send you an access code. It is stored in Osmo's database, is reviewed only by us, and is not shown to coaches or other users. Section 10 explains how long requests are kept.
+We use this information to review your request and, where we can, to email you an access code. That email is sent through our email provider, Resend (see Section 6), and can mention your first name, school, sport and how you heard about Osmo. It is stored in Osmo's database, is reviewed only by us, and is not shown to coaches or other users. Section 10 explains how long requests are kept.
 
 ### G. Email Updates
 
@@ -221,7 +221,7 @@ Even with these steps, an error report can occasionally include other informatio
 
 **Push notifications.** If you allow notifications, Osmo sends the notification text and your device's push token to Expo's push service, which delivers the notification through Apple's or Google's notification service. Morning notifications use generic wording and do not include WHOOP values.
 
-**Email updates.** Osmo uses Resend to send email updates and the one email that asks you to confirm them. Resend receives your email address, whether you are subscribed, and the content of each email sent to you, and tells us if an email bounces or is marked as spam so we can stop sending to that address. Resend does not receive your name or anything from your Osmo activity. Your sign-in code email is sent by Supabase, not Resend.
+**Email from Osmo.** Osmo uses Resend to send email updates, the one email that asks you to confirm them, and the email that answers an access request with your access code. For email updates, Resend receives your email address, whether you are subscribed, and the content of each email sent to you. For an access request, Resend receives your email address and the content of that email, which can include your first name, school, sport and how you heard about Osmo. Resend tells us if an email bounces or is marked as spam so we can stop sending to that address. Resend does not receive anything from your Osmo app activity. Your sign-in code email is sent by Supabase, not Resend.
 
 ### B. Coaches and Athletic Department Staff
 
@@ -335,7 +335,7 @@ We keep personal information for as long as we need it to provide Osmo and for t
 
 **Other Osmo records.** Your check-ins, journal entries, practice records, summaries and analytics events are kept until you delete your account. An eligibility record created when a person under 18 is turned away is kept for 365 days (see Section 11).
 
-**Access requests.** An access request that does not lead to an account is deleted automatically 90 days after it is submitted. A request that leads to an account is kept with that account and deleted when the account is deleted. You can ask us to delete your request sooner using the contact information in Section 18.
+**Access requests.** An access request that does not lead to an account is deleted automatically 90 days after it is submitted. A request that leads to an account is kept with that account and deleted when the account is deleted. If we email you a code, we keep a record of that email with your request (when it was sent, its subject line and whether Resend accepted it, but not its text), and it is deleted with the request. You can ask us to delete your request sooner using the contact information in Section 18.
 
 **Email updates.** If you ask for email updates but do not confirm within 30 days, we delete the request. Once you confirm, we keep your email address and the record of your choice while you are subscribed. If you unsubscribe, we keep the address, marked as unsubscribed, with that record, so we do not email you again unless you opt in and confirm again; you can ask us to delete it using the contact information in Section 18. Email updates are kept separately from access requests: your access request is still deleted 90 days after you submit it, but a confirmed subscription continues until you unsubscribe. If you turned on email updates in the app, deleting your account deletes that record, and we ask Resend to delete your address within a day.
 
@@ -455,6 +455,7 @@ We may update this Privacy Policy when Osmo, our practices or the law changes. W
 
 Recent changes:
 
+* November 15, 2026: Osmo can now email your access code through Resend, its email provider. Described what that email can include, what Resend receives and the record we keep of it.
 * October 31, 2026: published a separate Consumer Health Data Privacy Policy for Washington, Nevada and similar state laws. Limited how health information is used: apart from improving Osmo with records of which features and practices you use, research and product development use only de-identified information, unless you consent. Corrected where to find Delete account in the app.
 * October 31, 2026 (update to Osmo app version 1.0.3): described how the app filters error reports on your phone before they are sent to Sentry, and the two limits of that filtering.
 * October 31, 2026: added optional email updates. Osmo sends product updates and community email only to people who opt in and confirm, through a new service provider, Resend. Described what we keep, how long we keep it, and how to unsubscribe.
