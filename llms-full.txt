@@ -55,7 +55,7 @@ You rate ten feeling words on a 1 to 5 scale: alert, excited, enthusiastic, insp
 
 ### What can my coach see?
 
-Nothing, until you decide otherwise. Sharing is off by default, and you turn it on coach by coach, only for coaches on your team. A coach you share with sees Osmo's summary labels and whether you checked in today. They never see your raw wearable numbers, your check-in answers, your journal or your reflections. You can switch sharing off whenever you want.
+Nothing, until you decide otherwise. Sharing is off by default, and you turn it on coach by coach, only for coaches on your team. A coach you share with sees a summary: readiness, sleep and recovery labels if you use a wearable, whether you checked in today, your check-in streak and the day you last finished a practice. They never see your raw wearable numbers, your check-in answers, your journal or your reflections. You can switch sharing off whenever you want.
 
 ### Is my data private?
 

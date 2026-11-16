@@ -10,7 +10,7 @@ Key facts:
 - Audience: college athletes aged 18 and over, and the athletic departments, coaches and sports staff who support them.
 - Daily check-in: ten feeling words from the Positive and Negative Affect Schedule (PANAS), each rated 1 to 5, plus an optional note. About 90 seconds.
 - Wearable: optional. Osmo compares recovery and sleep only with the athlete's own history, never with other athletes. Today Osmo connects with WHOOP through the WHOOP developer platform; it is built to complement WHOOP, not replace it, and is not affiliated with or endorsed by WHOOP, Inc.
-- Coaches: see nothing until an athlete turns on sharing, and then only Osmo's summary labels and whether the athlete checked in today. Never raw wearable numbers, check-in answers or journal entries.
+- Coaches: see nothing until an athlete turns on sharing, and then only a summary: Osmo's readiness, sleep and recovery labels, whether the athlete checked in today, the check-in streak and the day of the last finished practice. Never raw wearable numbers, check-in answers or journal entries.
 - Privacy: Osmo does not sell personal information, does not use it for advertising and has no ads.
 - Cost: athletes do not pay. Athletic departments bring Osmo to their programs; athletes join with a team code.
 - Not: a clinical, diagnostic or mental health treatment product. In a crisis in the US, call or text 988.
@@ -22,6 +22,8 @@ Key facts:
 - [For athletic departments](https://osmoperformance.com/departments): request a pilot for your teams
 - [For athletes](https://osmoperformance.com/athletes): ask for a team code if your program has not shared one
 - [App Store](https://apps.apple.com/us/app/osmo-performance/id6763401988): download Osmo Performance for iPhone
+- [What coaches see](https://osmoperformance.com/departments/what-coaches-see): exactly what a coach sees and never sees
+- [Emotional performance](https://osmoperformance.com/emotional-performance): what it is and what a daily routine looks like
 - [Founder story](https://osmoperformance.com/founder): why Jamari Myers built Osmo
 - [Support](https://osmoperformance.com/support): contact, account deletion, password reset, team codes
 
@@ -35,3 +37,4 @@ Key facts:
 
 - [Full text for AI agents](https://osmoperformance.com/llms-full.txt): every fact above plus the complete FAQ
 - [Instagram](https://www.instagram.com/osmo.performance/)
+- [LinkedIn](https://www.linkedin.com/company/osmo-performance)
