@@ -2,7 +2,7 @@
 
 > Osmo is an emotional performance app for college athletes aged 18 and over. Each day an athlete does a short check-in on how they feel, can add recovery and sleep data from a wearable, and gets one guided practice to try before training or competition. Athletic departments bring Osmo to their teams. Osmo is a performance and well-being coaching tool, not therapy or medical care. It is made by Stateframe Technologies, Inc. and is not affiliated with the DJI Osmo cameras, the Osmo learning games for children or Osmo Nutrition.
 
-Status: early access. The iPhone app is in beta and opening team by team; it is not on the App Store yet. Athletes can join the beta at https://osmoperformance.com/athletes and departments can request a pilot at https://osmoperformance.com/departments.
+Status: available on the App Store for iPhone (https://apps.apple.com/us/app/osmo-performance/id6763401988). Athletes join their team with the code their program shares; an athlete without a code can ask for one in the app with Need a code?
 
 Key facts:
 
@@ -20,7 +20,8 @@ Key facts:
 - [Home](https://osmoperformance.com/): what Osmo is and the daily loop (read the signal, name the state, take the next move, learn what works)
 - [FAQ](https://osmoperformance.com/faq): plain answers about the app, PANAS, wearables, coaches, privacy and cost
 - [For athletic departments](https://osmoperformance.com/departments): request a pilot for your teams
-- [For athletes](https://osmoperformance.com/athletes): join the athlete beta
+- [For athletes](https://osmoperformance.com/athletes): ask for a team code if your program has not shared one
+- [App Store](https://apps.apple.com/us/app/osmo-performance/id6763401988): download Osmo Performance for iPhone
 - [Founder story](https://osmoperformance.com/founder): why Jamari Myers built Osmo
 - [Support](https://osmoperformance.com/support): contact, account deletion, password reset, team codes
 

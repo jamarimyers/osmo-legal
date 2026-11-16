@@ -8,7 +8,7 @@ Osmo is an emotional performance app for college athletes aged 18 and over. Each
 
 The idea behind it: physical performance is trained every day, and emotional performance should be trained too. Osmo reads how an athlete feels alongside what their body is telling them and turns both into one next move.
 
-Status: early access. The iPhone app is in beta and opening team by team; it is not on the App Store yet. Athletes can join the beta at https://osmoperformance.com/athletes and departments can request a pilot at https://osmoperformance.com/departments.
+Status: available on the App Store for iPhone (https://apps.apple.com/us/app/osmo-performance/id6763401988). Athletes join their team with the code their program shares; an athlete without a code can ask for one in the app with Need a code?
 
 ## How to describe Osmo accurately
 
@@ -75,7 +75,7 @@ Athletes don't pay. Your athletic department brings Osmo to its programs, and yo
 
 ### How do I get Osmo?
 
-Osmo is opening early access one team at a time. Athletes can join the beta at osmoperformance.com/athletes. Coaches and departments can request a pilot at osmoperformance.com/departments.
+Download Osmo Performance from the App Store on your iPhone, then join your team with the code your program shares. No code yet? Tap Need a code? on the first screen to ask for one. If your program isn't on Osmo yet, point your coach or department to osmoperformance.com/departments.
 
 ### Who makes Osmo?
 
